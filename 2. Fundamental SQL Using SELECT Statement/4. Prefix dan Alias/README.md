@@ -12,5 +12,5 @@ FROM ms_produk AS t1;
 
 **Penjelasan**
 
-- **Prefix**, dimana kita akan menambahkan nama tabel di depan nama kolom.
+- **Prefix**, dimana kita akan menambahkan nama tabel di depan nama kolom.<br>
 - **Alias**, dimana kita memberikan alias atau nama lain untuk tabel maupun kolom.
