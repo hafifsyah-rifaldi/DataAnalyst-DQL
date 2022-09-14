@@ -2,4 +2,5 @@
 
 <br>
 ![cert](Fundamental-SQL-Certificate.png)
+
 - This repository written for reference and self-documentation purpose
