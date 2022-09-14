@@ -22,4 +22,5 @@ FROM ms_produk AS t1;
    - Alias adalah nama lain yang diberikan untuk kolom maupun tabel.<br>
    - Alias dapat digunakan dengan keyword AS atau tanpa keyword AS setelah nama kolom dan tabel.<br>
    - Prefix nama tabel bisa menggunakan alias.<br>
-     Pemahaman mengenai prefix dan alias akan mendorong kemampuan identifikasi tabel maupun kolom yang terlibat untuk perintah SELECT yang lebih kompleks.
+
+Pemahaman mengenai prefix dan alias akan mendorong kemampuan identifikasi tabel maupun kolom yang terlibat untuk perintah SELECT yang lebih kompleks.
