@@ -30,12 +30,12 @@ ORDER BY total DESC;
 
 1. Konsep SQL, yaitu:
 
-- Konsep Sistem Database Relasional atau Relational Database Management System (RDBMS).<br>
-- Struktur penyimpanan RDBMS yang terdiri dari database, tabel, kolom (column) dan baris (row).<br>
-- Pengenalan perintah SELECT untuk mengambil data dari tabel.
+   - Konsep Sistem Database Relasional atau Relational Database Management System (RDBMS).<br>
+   - Struktur penyimpanan RDBMS yang terdiri dari database, tabel, kolom (column) dan baris (row).<br>
+   - Pengenalan perintah SELECT untuk mengambil data dari tabel.
 
 2. Teknik SELECT, dimana aku dapat:
 
-- Mengambil kolom tertentu.<br>
-- Mengambil jumlah data tertentu.<br>
-- Menggunakan prefix dan alias.
+   - Mengambil kolom tertentu.<br>
+   - Mengambil jumlah data tertentu.<br>
+   - Menggunakan prefix dan alias.
