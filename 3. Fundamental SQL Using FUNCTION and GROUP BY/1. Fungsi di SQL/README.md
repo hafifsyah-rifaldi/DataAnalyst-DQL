@@ -9,6 +9,7 @@ Fungsi skalar untuk numerik value merupakan Fungsi yang umumnya digunakan jika k
 
 ## Tugas Praktek
 
+Gunakan fungsi **MOD()** untuk menghitung nilai sisa jika nilai Semester1 dibagi 2 dan fungsi **EXP()** untuk menghitung nilai eksponensial dari nilai MarkGrowth. Gunakan kedua fungsi tersebut dalam satu SELECT-Statement.<br>
 ![tabel-soal](output_tabelsoal.png)
 
 ## Solusi Jawaban
