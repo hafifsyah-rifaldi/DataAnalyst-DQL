@@ -13,17 +13,26 @@ Aksara, saya senang dengan perkembanganmu belakangan ini. Saya mau minta tolong 
 
 ## Solusi Jawaban
 
+#### 1. Total jumlah seluruh penjualan (total/revenue).
+
 ```
-## 1. Total jumlah seluruh penjualan (total/revenue).
 SELECT SUM(total) as total
 FROM tr_penjualan;
-## 2. Total quantity seluruh produk yang terjual.
+```
+
+### 2. Total quantity seluruh produk yang terjual.
+
+```
 SELECT SUM(qty) as qty
 FROM tr_penjualan;
-## 3. Total quantity dan total revenue untuk setiap kode produk.
+```
+
+### 3. Total quantity dan total revenue untuk setiap kode produk.
+
+```
 SELECT kode_produk, SUM(qty) as qty, SUM(total) as total
 FROM tr_penjualan
 GROUP BY kode_produk;
 ```
 
-![tabel-jawaban](tabel_jawaban.png)
+![tabel-jawaban](tabel_jawaban1.png)
