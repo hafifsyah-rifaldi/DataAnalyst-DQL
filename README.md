@@ -1,1 +1,1 @@
-# DataScience-DQL
+# DataAnalyst-DQL
