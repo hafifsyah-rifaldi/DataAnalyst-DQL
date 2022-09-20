@@ -11,7 +11,7 @@ Fungsi skalar untuk text/string value merupakan fungsi yang digunakan jika kita 
 
 Gunakan fungsi **UPPER()** untuk mengubah kolom **FirstName** menjadi seluruhnya kapital dan gunakan **LOWER()** untuk mengubah kolom **LastName** menjadi seluruhnya non-kapital. Gunakan kedua fungsi tersebut dalam satu SELECT-Statement.<br>
 
-Jika berhasil, berikut output tabel yang diperoleh:
+Jika berhasil, berikut output tabel yang diperoleh:<br>
 ![tabel-soal](output_tabelsoal.png)
 
 ## Solusi Jawaban
