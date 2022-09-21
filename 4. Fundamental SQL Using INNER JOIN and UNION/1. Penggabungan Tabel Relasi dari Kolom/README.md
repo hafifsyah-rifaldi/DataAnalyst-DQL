@@ -37,7 +37,7 @@ Dari kedua tabel yang tersebut, manakah kolom – kolom yang sebenarnya memiliki
 #### Solusi Jawaban
 
 - nama_barang dan kategori
-  **- nama_barang dan nama_item**
+- **_nama_barang dan nama_item_**
 - nama_item dan warna
 - warna dan kategori
 
@@ -59,7 +59,7 @@ Nah, sekarang coba dilihat, mana saja isi data di atas yang terdapat pada kedua 
 - apel
 - daun bawang
 - belimbing
-- **bayam**
+- **_bayam_**
 
 # Quiz 3
 
@@ -74,4 +74,4 @@ JAWABAN<br>
 - SELECT \* FROM A & B where A.kolom1 = B.kolom2
 - SELECT \* FROM A, B where A.kolom1 equal to B.kolom2
 - SELECT \* FROM A and B where A.kolom1 = B.kolom2
-- **SELECT \* FROM A, B where kolom1 = kolom2**
+- **_SELECT \* FROM A, B where kolom1 = kolom2_**
