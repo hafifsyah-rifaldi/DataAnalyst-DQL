@@ -6,7 +6,7 @@ Penggabungan dua tabel menjadi satu tabel baru menggunakan query SELECT pada sub
 - menuliskan pasangan key columns dengan penghubung operator sama dengan (=) di bagian filter atau kondisi.<br>
 
 Berikut adalah gambaran detil syntax penggunaan cara di atas:<br>
-![tabel-query](tabel_query.png)
+![tabel-query](tabel_query.png)<br>
 Cara join seperti ini disebut dengan cara join menggunakan **operator koma**.
 
 # Tugas Praktek
@@ -31,7 +31,7 @@ SELECT * FROM ms_item_warna;
 
 Hal pertama yang perlu dilakukan sebelum menggabungkan kedua tabel adalah **mengidentifikasi kolom mana dari kedua tabel yang memiliki kecocokan atau memiliki informasi yang sama**. Coba kita perhatikan data dari kedua tabel **ms_item_warna** dan **ms_item_kategori** berikut<br>
 
-![quiz-soal](quiz_soal.png)
+![quiz-soal](quiz_soal.png)<br>
 Dari kedua tabel yang tersebut, manakah kolom – kolom yang sebenarnya memiliki kecocokan/kesamaan data sehingga bisa digunakan untuk menghubungkan/menggabungkan kedua tabel?
 
 #### Solusi Jawaban
@@ -51,7 +51,7 @@ Aku mencatat dengan cepat beberapa poin pemaparannya.
 
 “Selanjutnya, perhatikan kedua tabel ini kembali.” Aku mengarahkan pandang pada layar laptop yang ditunjuk Senja.<br>
 
-![quiz-soal](quiz_soal2.png)
+![quiz-soal](quiz_soal2.png)<br>
 Nah, sekarang coba dilihat, mana saja isi data di atas yang terdapat pada kedua table?
 
 #### Solusi Jawaban
@@ -59,4 +59,19 @@ Nah, sekarang coba dilihat, mana saja isi data di atas yang terdapat pada kedua 
 - apel
 - daun bawang
 - belimbing
-  **- bayam**
+- **bayam**
+
+# Quiz 3
+
+#### Mana Query Penggabungan Tabel Yang Benar?
+
+Mana dari syntax query berikut yang menggabungkan tabel dengan operator koma?
+
+JAWABAN<br>
+
+#### Solusi Jawaban
+
+- SELECT \* FROM A & B where A.kolom1 = B.kolom2
+- SELECT \* FROM A, B where A.kolom1 equal to B.kolom2
+- SELECT \* FROM A and B where A.kolom1 = B.kolom2
+- **SELECT \* FROM A, B where kolom1 = kolom2**
