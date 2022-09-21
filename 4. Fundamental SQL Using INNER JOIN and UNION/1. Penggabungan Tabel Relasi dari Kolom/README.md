@@ -67,11 +67,23 @@ Nah, sekarang coba dilihat, mana saja isi data di atas yang terdapat pada kedua 
 
 Mana dari syntax query berikut yang menggabungkan tabel dengan operator koma?
 
-JAWABAN<br>
-
 #### Solusi Jawaban
 
 - SELECT \* FROM A & B where A.kolom1 = B.kolom2
 - SELECT \* FROM A, B where A.kolom1 equal to B.kolom2
 - SELECT \* FROM A and B where A.kolom1 = B.kolom2
 - **_SELECT \* FROM A, B where kolom1 = kolom2_**
+
+# Quiz 4
+
+#### Mana Penjelasan Hasil Penggabungan Yang Benar?
+
+Mana dari penjelasan berikut ini yang benar untuk query di bawah ini.
+![quiz-soal](quiz_soal4.png)<br>
+
+#### Solusi Jawaban
+
+- tabel nama_barang dan nama_item dapat digabungkan melalui pasangan key column ms_item_kategori dan ms_item_warna
+- **_tabel ms_item_kategori dan ms_item_warna dapat digabungkan jika kondisi isi pada kolom nama_barang sesuai dengan isi pada kolom nama_item._**
+- Jika tidak ada isi yang sama di kedua tabel maka data dari kedua tabel akan digabungkan.
+- Jika ada isi yang sama di kedua tabel maka data dari kedua tabel tidak akan digabungkan.
