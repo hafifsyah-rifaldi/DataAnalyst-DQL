@@ -9,6 +9,18 @@ Berikut adalah gambaran detil syntax penggunaan cara di atas:<br>
 ![tabel-query](tabel_query.png)<br>
 Cara join seperti ini disebut dengan cara join menggunakan **operator koma**.
 
+# Kesimpulan
+
+Bahasa SQL diciptakan untuk sistem database relasional atau RDBMS. Dan aspek **relasional** inilah yang menjadi fitur paling penting dan unggul, dimana beberapa tabel dapat digabungkan menjadi satu sumber data baru.<br>
+
+Cara menggabungkan antar tabel disebut sebagai mekanisme join. Pada bab ini telah dicontohkan bagaimana dua tipe join, yaitu **inner join** dan **cross join** diterapkan dengan dua contoh tabel sederhana.<br>
+
+**Inner join** terjadi jika kedua tabel digabungkan melalui kolom kunci atau key column. Syarat penggabungan adalah dimana Isi data dari key column tabel yang satu harus dapat dicocokkan dengan isi data dari key column tabel yang lain.<br>
+
+Sedangkan **cross join** terjadi dari penggabungan tabel tanpa kondisi, dan menghasilkan seluruh penggabungan data seperti proses perkalian.<br>
+
+Untuk bab ini, inner join maupun cross join dilakukan dengan cara menggunakan operator koma dan pengkondisian where. Pada bab selanjutnya, akan terlihat penggunaan inner join dengan menggunakan keyword **INNER JOIN … ON**.
+
 # Tugas Praktek
 
 Cobalah ketik query pada code editor untuk melihat keseluruhan isi dari kolom tabel ms_item_kategori dan ms_item_warna.<br>
@@ -87,3 +99,24 @@ Mana dari penjelasan berikut ini yang benar untuk query di bawah ini.
 - **_tabel ms_item_kategori dan ms_item_warna dapat digabungkan jika kondisi isi pada kolom nama_barang sesuai dengan isi pada kolom nama_item._**
 - Jika tidak ada isi yang sama di kedua tabel maka data dari kedua tabel akan digabungkan.
 - Jika ada isi yang sama di kedua tabel maka data dari kedua tabel tidak akan digabungkan.
+
+# Quiz 5
+
+#### Berapa Jumlah Baris Hasil “Join Tanpa Kondisi” Berikut?
+
+Perhatikan dua table berikut ini
+![quiz-soal](quiz_soal5.png)<br>
+Jika kedua table tersebut digabungkan tanpa kondisi dengan query berikut
+
+```
+SELECT * FROM ms_item_kategori, ms_item_warna;
+```
+
+Berapa jumlah baris data gabungan yang dihasilkan?
+
+#### Solusi Jawaban
+
+- 64
+- 72
+- **_80_**
+- 82
