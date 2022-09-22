@@ -74,4 +74,4 @@ ON tr_penjualan.kode_produk = ms_produk.kode_produk;
 ```
 
 Output Jawaban<br>
-![tabel](tabel_output2.png)<br>
+![tabel](tabel_output3.png)<br>
