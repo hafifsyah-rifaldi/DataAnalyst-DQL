@@ -8,3 +8,14 @@ Jika masing-masing tabel tersebut dianalogikan sebagai dua himpunan maka proses 
 
 ![irisan](irisan.png)<br>
 Proses INNER JOIN memiliki konsep penggabungan untuk records pada kedua tabel yang bernilai sama.
+
+# Tugas Praktek: Menggunakan INNER JOIN (1/3)
+
+```
+SELECT * FROM ms_item_warna
+INNER JOIN ms_item_kategori
+ON ms_item_warna.nama_barang = ms_item_kategori.nama_item;
+```
+
+![tabel](tabel_output1.png)<br>
+Hasil yang diperoleh dengan penggunaan **SELECT** … **FROM** … **INNER JOIN** … **ON** …; adalah sama dengan penerapan **SELECT** … **FROM **… **WHERE** …;.
