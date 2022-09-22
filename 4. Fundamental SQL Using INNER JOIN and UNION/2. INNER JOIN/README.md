@@ -46,3 +46,14 @@ ON tr_penjualan.kode_produk = ms_produk.kode_produk;
 
 Output Jawaban<br>
 ![tabel](tabel_output2.png)<br>
+
+# Syntax INNER JOIN
+
+### Syntax INNER JOIN – Memilih Beberapa Kolom Untuk Ditampilkan
+
+![syntax](inner_join2.png)<br>
+Bagian Query <br>
+
+**Catatan:**
+
+"Perlu diperhatikan jika menampilkan kolom dengan nama yang sama di kedua tabel, maka pada bagian Select, tidak bisa hanya mengetikkan nama kolom saja, tetapi juga harus didahului oleh prefix nama tabel dimana kolom itu berasal untuk menghindari error karena ambiguitas,"
