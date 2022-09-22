@@ -46,4 +46,3 @@ ON tr_penjualan.kode_produk = ms_produk.kode_produk;
 
 Output Jawaban<br>
 ![tabel](tabel_output2.png)<br>
-Hasil yang diperoleh dengan penggunaan **SELECT** … **FROM** … **INNER JOIN** … **ON** …; adalah sama dengan penerapan **SELECT** … **FROM **… **WHERE** …;.
