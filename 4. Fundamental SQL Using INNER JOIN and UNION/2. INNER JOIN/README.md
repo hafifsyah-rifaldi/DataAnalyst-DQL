@@ -19,3 +19,16 @@ ON ms_item_warna.nama_barang = ms_item_kategori.nama_item;
 
 ![tabel](tabel_output1.png)<br>
 Hasil yang diperoleh dengan penggunaan **SELECT** … **FROM** … **INNER JOIN** … **ON** …; adalah sama dengan penerapan **SELECT** … **FROM **… **WHERE** …;.
+
+# Quiz 1
+
+#### Mengidentifikasi Key Column tabel tr_penjualan dan ms_produk
+
+“Nah, sebelum kita menggunakan INNER JOIN dalam menggabungkan 2 tabel, seperti yang sudah dijelaskan sebelumnya, kita perlu terlebih dahulu mengetahui kolom mana yang merupakan key kolom yang akan digunakan dalam JOIN. Jadi, manakah yang merupakan key kolom dari kedua tabel **tr_penjualan** dan **ms_produk** tersebut untuk digunakan dalam INNER JOIN?"<br>
+
+#### Solusi Jawaban
+
+- total dari tabel tr_penjualan dengan harga dari tabel ms_produk
+- **_Kode_produk dari tabel tr_penjualan dengan kode_produk dari tabel ms_produk_**
+- Kode_produk dari tabel tr_penjualan dengan nama_produk dari tabel ms_produk
+- No_urut dari tabel tr_penjualan dengan kode_transaksi dari tabel ms_produk
