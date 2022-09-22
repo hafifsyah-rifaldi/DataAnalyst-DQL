@@ -17,6 +17,7 @@ INNER JOIN ms_item_kategori
 ON ms_item_warna.nama_barang = ms_item_kategori.nama_item;
 ```
 
+Output Jawaban<br>
 ![tabel](tabel_output1.png)<br>
 Hasil yang diperoleh dengan penggunaan **SELECT** … **FROM** … **INNER JOIN** … **ON** …; adalah sama dengan penerapan **SELECT** … **FROM **… **WHERE** …;.
 
@@ -32,3 +33,17 @@ Hasil yang diperoleh dengan penggunaan **SELECT** … **FROM** … **INNER JOIN*
 - **_Kode_produk dari tabel tr_penjualan dengan kode_produk dari tabel ms_produk_**
 - Kode_produk dari tabel tr_penjualan dengan nama_produk dari tabel ms_produk
 - No_urut dari tabel tr_penjualan dengan kode_transaksi dari tabel ms_produk
+
+# Tugas Praktek: Menggunakan INNER JOIN (2/3)
+
+“Oke, Aksara. Silakan dipraktikkan pada code editor untuk menggabungkan tabel **tr_penjualan** dan **ms_produk** dan menampilkan seluruh kolom dari kedua tabel.”
+
+```
+SELECT * FROM tr_penjualan
+INNER JOIN ms_produk
+ON tr_penjualan.kode_produk = ms_produk.kode_produk;
+```
+
+Output Jawaban<br>
+![tabel](tabel_output2.png)<br>
+Hasil yang diperoleh dengan penggunaan **SELECT** … **FROM** … **INNER JOIN** … **ON** …; adalah sama dengan penerapan **SELECT** … **FROM **… **WHERE** …;.
