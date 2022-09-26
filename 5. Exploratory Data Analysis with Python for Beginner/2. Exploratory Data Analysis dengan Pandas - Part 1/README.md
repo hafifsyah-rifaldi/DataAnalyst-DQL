@@ -1,7 +1,7 @@
 # Membaca file dari Excel atau CSV sebagai data frame
 
 Salah satu fungsi Pandas yaitu melakukan load data dari CSV atau Excel file. Syntax yang digunakan untuk melakukan operasi tersebut, yaitu:<br>
-![syntax](syntax_pandas.png)
+![syntax](img/syntax_pandas.png)
 
 # Inspeksi struktur data frame
 
@@ -16,7 +16,7 @@ Setelah melakukan proses loading dataframe ke dalam Python. Hal selanjutnya sebe
 Hal pertama dalam mengerti struktur dari dataframe adalah informasi mengenai berapa size dari dataframe yang akan digunakan termasuk berapa jumlah kolom dan jumlah baris data frame tersebut. <br>
 
 Dalam kasus ini, aku dapat menggunakan **_attribute_** <code>.shape</code> pada suatu dataframe. Syntaxnya dinyatakan dengan:<br>
-![syntax](syntax_dataframe.png)
+![syntax](img/syntax_dataframe.png)
 
 # Melihat preview data dari data frame
 
