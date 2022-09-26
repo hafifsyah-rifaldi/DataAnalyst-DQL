@@ -65,7 +65,7 @@ hasil<br>
 
 # Statistik Deskriptif dari Data Frame - Part 3
 
-Selanjutnya, untuk mencari rataan dari suatu data dari dataframe. Aku dapat menggunakan syntax **mean, median,** dan **mode** dari Pandas.
+Selanjutnya, untuk mencari rataan dari suatu data dari dataframe. Aku dapat menggunakan syntax **mean, median,** dan **mode** dari Pandas.<br>
 <code>print([nama_dataframe].loc[;, "nama_kolom"].mean())</code><br>
 <code>print([nama_dataframe].loc[;, "nama_kolom"].median())</code><br>
 <code>print([nama_dataframe].loc[;, "nama_kolom"].mode())</code><br>
