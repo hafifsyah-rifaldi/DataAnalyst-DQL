@@ -23,3 +23,17 @@ Bentuk dari **_data frame_** diilustrasikan sebagai berikut:<br>
 Scipy dibangun untuk bekerja dengan array NumPy dan menyediakan banyak komputasi numerik yang ramah pengguna dan efisien seperti rutinitas untuk integrasi, diferensiasi dan optimasi numerik.<br>
 
 Baik NumPy maupun SciPy berjalan pada semua **_operating system_**, cepat untuk diinstall dan gratis. NumPy dan SciPy mudah digunakan, tetapi cukup kuat untuk diandalkan oleh beberapa **_data scientist_** dan **_researcher_** terkemuka dunia.
+
+# Library Matplotlib
+
+Matplotlib merupakan library dari Python yang umum digunakan untuk visualisasi data. Matplotlib memiliki kapabilitas untuk membuat visualisasi data 2-dimensional. Contoh visualisasi yang dapat dibuat dengan menggunakan matplotlib diantaranya adalah
+
+1. Line chart
+2. Bar chart
+3. Pie chart
+4. Box plot chart
+5. Violin chart
+6. Errorbar chart
+7. Scatter chart<br>
+
+Jenis-jenis chart lainnya juga dapat dibuat melalui library ini.
