@@ -12,3 +12,10 @@ SELECT * FROM tabel_B;
 SELECT * FROM tabel_A
 UNION
 SELECT * FROM tabel_B;
+
+-- ! Menggunakan UNION dengan Klausa WHERE ! 
+SELECT * FROM tabel_A
+WHERE kode_produk = 'prod-04'
+UNION
+SELECT * FROM tabel_B
+WHERE kode_produk = 'prod-04';
