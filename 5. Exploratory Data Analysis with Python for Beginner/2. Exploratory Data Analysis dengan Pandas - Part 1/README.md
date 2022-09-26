@@ -10,3 +10,10 @@ Setelah melakukan proses loading dataframe ke dalam Python. Hal selanjutnya sebe
 1. melihat struktur data frame,
 2. melihat preview data dari dataframe tersebut, dan
 3. membuat summary data sederhana dari dataset.
+
+# Melihat struktur kolom dan baris dari data frame
+
+Hal pertama dalam mengerti struktur dari dataframe adalah informasi mengenai berapa size dari dataframe yang akan digunakan termasuk berapa jumlah kolom dan jumlah baris data frame tersebut. <br>
+
+Dalam kasus ini, aku dapat menggunakan **_attribute_** .<code>shape</code> pada suatu dataframe. Syntaxnya dinyatakan dengan:<br>
+![syntax](syntax_dataframe.png)
