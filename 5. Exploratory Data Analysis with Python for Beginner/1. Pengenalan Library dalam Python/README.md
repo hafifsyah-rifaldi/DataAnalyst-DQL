@@ -17,3 +17,9 @@ Bentuk dari **_series_** diilustrasikan sebagai berikut:<br>
 ![series](series.png)<br>
 Bentuk dari **_data frame_** diilustrasikan sebagai berikut:<br>
 ![dataframe](dataframe.png)<br>
+
+# Library SciPy
+
+Scipy dibangun untuk bekerja dengan array NumPy dan menyediakan banyak komputasi numerik yang ramah pengguna dan efisien seperti rutinitas untuk integrasi, diferensiasi dan optimasi numerik.<br>
+
+Baik NumPy maupun SciPy berjalan pada semua **_operating system_**, cepat untuk diinstall dan gratis. NumPy dan SciPy mudah digunakan, tetapi cukup kuat untuk diandalkan oleh beberapa **_data scientist_** dan **_researcher_** terkemuka dunia.
