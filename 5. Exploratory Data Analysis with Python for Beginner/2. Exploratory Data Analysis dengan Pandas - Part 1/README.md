@@ -62,3 +62,24 @@ Function **describe()** dengan **include="all"** akan memberikan **_summary_** s
 hasil<br>
 
 ![gambar](img/gambar_tabeloutput3.png)<br>
+
+# Statistik Deskriptif dari Data Frame - Part 3
+
+Selanjutnya, untuk mencari rataan dari suatu data dari dataframe. Aku dapat menggunakan syntax **mean, median,** dan **mode** dari Pandas.
+<code>print([nama_dataframe].loc[;, "nama_kolom"].mean())</code><br>
+<code>print([nama_dataframe].loc[;, "nama_kolom"].median())</code><br>
+<code>print([nama_dataframe].loc[;, "nama_kolom"].mode())</code><br>
+
+**Contoh Penggunaan:**
+
+```
+print(nilai_skor_df).loc[;, "Age"].mean())
+print(nilai_skor_df).loc[;, "Score"].median())
+```
+
+Memberikan hasil:<br>
+
+```
+21.4 # Mean
+78   # Median
+```
