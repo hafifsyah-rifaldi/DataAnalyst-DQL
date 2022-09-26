@@ -37,3 +37,27 @@ Matplotlib merupakan library dari Python yang umum digunakan untuk visualisasi d
 7. Scatter chart<br>
 
 Jenis-jenis chart lainnya juga dapat dibuat melalui library ini.
+
+# Quiz 1
+
+Karyawan A mendapatkan tugas dari karyawan B untuk membuat summary dari hasil dataset penjualan di e-commerce ABC, dimana order dataset tersebut disimpan di CSV file. Namun karyawan A memiliki kesulitan dalam melakukan proses loading dataset tersebut ke dalam Python.<br>
+
+Library dari Python manakah yang dapat direkomendasikan kepada karyawan A?
+
+JAWABAN
+
+- NumPy
+- **_Pandas_**
+- SciPy
+- Matplotlib
+
+# Quiz 2
+
+Setelah melakukan proses manipulasi data, untuk menyajikan data tersebut, karyawan A butuh membuat beberapa chart terkait distribusi data. Library manakah yang paling cocok digunakan oleh karyawan A?<br>
+
+JAWABAN
+
+- NumPy
+- Pandas
+- SciPy
+- **_Matplotlib_**
