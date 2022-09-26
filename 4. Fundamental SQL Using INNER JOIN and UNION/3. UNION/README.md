@@ -60,3 +60,15 @@ Pada metode JOIN, penggabungan dilakukan berdasarkan key/kolom tertentu yang ter
 Untuk UNION seperti yang sudah dijelaskan, digunakan ketika ingin menggabungkan tabel secara secara vertikal yaitu menggabungkan baris/row dari dua atau lebih tabel. Tidak seperti JOIN, untuk penggabungan dengan UNION, tidak diperlukan key/kolom yang saling terkait tetapi UNION mensyaratkan bahwa jumlah kolom dari tabel - tabel yang akan digabungkankan adalah sama dan berada diposisi yang sama pula. Berikut ilustrasi penggabungan dengan UNION:<br>
 ![tabel](tabel_2.png)<br>
 Pada proses penggabungan UNION, tidak terdapat penambahan kolom tetapi jumlah baris/rows yang akan bertambah.
+
+# Quiz
+
+Manakah yang tidak menunjukkan perbedaan antara UNION dan JOIN?<br>
+Pilihlah pernyataan yang sesuai berikut ini:<br>
+
+JAWABAN
+
+- JOIN menggabungkan 2 tabel atau lebih berdasarkan baris yang saling berelasi/terkait sedangkan UNION menggabungkan 2 tabel secara vertikal.
+- JOIN menggabungkan kolom - kolom dari dua tabel atau lebih menjadi satu tabel sedangkan UNION menggabungkan baris dari dua tabel atau lebih menjadi satu tabel.
+- Untuk melakukan JOIN, jumlah kolom dari kedua tabel tidak harus sama tetapi paling tidak satu kolom dari kedua tabel memiliki relation/atribut yang sama; sedangkan untuk melakukan UNION, jumlah, posisi kolom, tipe data dan domain dari kedua tabel harus sama.
+- **_JOIN secara horizontal tanpa relasi, dan UNION secara vertikal._**
