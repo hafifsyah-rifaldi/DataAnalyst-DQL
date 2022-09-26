@@ -72,3 +72,15 @@ JAWABAN
 - JOIN menggabungkan kolom - kolom dari dua tabel atau lebih menjadi satu tabel sedangkan UNION menggabungkan baris dari dua tabel atau lebih menjadi satu tabel.
 - Untuk melakukan JOIN, jumlah kolom dari kedua tabel tidak harus sama tetapi paling tidak satu kolom dari kedua tabel memiliki relation/atribut yang sama; sedangkan untuk melakukan UNION, jumlah, posisi kolom, tipe data dan domain dari kedua tabel harus sama.
 - **_JOIN secara horizontal tanpa relasi, dan UNION secara vertikal._**
+
+# Kesimpulan
+
+Pada chapter **UNION** ini telah dipelajari bagaimana menggabungkan dua tabel secara vertikal (bertambah barisnya). Tentunya ada syarat yang harus dipenuhi oleh kedua tabel yang digabungkan dengan UNION, yaitu:<br>
+
+- Setiap hasil dari **SELECT** statement yang akan digabungkan **(UNION)** memiliki jumlah kolom yang sama
+- Kolom tersebut juga harus memiliki tipe data yang sama, dan
+- Kolom tersebut memiliki urutan posisi yang sama.<br>
+
+Selain itu, mempelajari bagaimana penyelerasan kolom sehingga record/baris yang ditampilkan pada tabel hasil penggabungan memiliki arti.<br>
+
+Perbedaan mendasar dari JOIN dan UNION adalah JOIN menggabungkan 2 tabel atau lebih berdasarkan baris yang saling berelasi/terkait sedangkan UNION menggabungkan 2 tabel secara vertikal.
