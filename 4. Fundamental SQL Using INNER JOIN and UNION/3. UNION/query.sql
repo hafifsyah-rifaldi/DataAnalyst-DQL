@@ -19,3 +19,10 @@ WHERE kode_produk = 'prod-04'
 UNION
 SELECT * FROM tabel_B
 WHERE kode_produk = 'prod-04';
+
+-- ! Menggunakan UNION dan Menyelaraskan Kolom-Kolomnya. !
+SELECT CustomerName, ContactName, City, PostalCode
+FROM Customers
+UNION
+SELECT SupplierName, ContactName, City, PostalCode
+FROM Suppliers;
