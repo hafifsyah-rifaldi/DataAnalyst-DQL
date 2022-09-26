@@ -17,3 +17,10 @@ Hal pertama dalam mengerti struktur dari dataframe adalah informasi mengenai ber
 
 Dalam kasus ini, aku dapat menggunakan **_attribute_** <code>.shape</code> pada suatu dataframe. Syntaxnya dinyatakan dengan:<br>
 ![syntax](syntax_dataframe.png)
+
+# Melihat preview data dari data frame
+
+Selanjutnya, untuk mendapatkan gambaran dari konten dataframe tersebut. Kita dapat menggunakan **_function_** **head** dan **tail**, dengan syntax:<br>
+![syntax](syntax_headtail.png)<br>
+Jika [jumlah_data] pada function **head** dan **tail** dikosongkan maka secara default akan ditampilkan sebanyak 5 (lima) baris saja. Sehingga bisa ditulis sebagai berikut:<br>
+![syntax](syntax_headtail2.png)<br>
