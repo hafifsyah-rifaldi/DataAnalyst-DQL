@@ -15,5 +15,5 @@ Setelah melakukan proses loading dataframe ke dalam Python. Hal selanjutnya sebe
 
 Hal pertama dalam mengerti struktur dari dataframe adalah informasi mengenai berapa size dari dataframe yang akan digunakan termasuk berapa jumlah kolom dan jumlah baris data frame tersebut. <br>
 
-Dalam kasus ini, aku dapat menggunakan **_attribute_** .<code>shape</code> pada suatu dataframe. Syntaxnya dinyatakan dengan:<br>
+Dalam kasus ini, aku dapat menggunakan **_attribute_** <code>.shape</code> pada suatu dataframe. Syntaxnya dinyatakan dengan:<br>
 ![syntax](syntax_dataframe.png)
