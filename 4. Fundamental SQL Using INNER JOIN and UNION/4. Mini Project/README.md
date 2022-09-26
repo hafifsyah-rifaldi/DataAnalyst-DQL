@@ -32,3 +32,18 @@ Tabel **ms_produk_1**<br>
 ![Tabel](tabel_msproduk1.png)<br>
 Tabel **ms_produk_2**<br>
 ![Tabel](tabel_msproduk2.png)<br>
+
+## Jawaban
+
+```
+SELECT nama_produk, kode_produk, harga
+FROM ms_produk_1
+WHERE harga < 100000
+UNION
+SELECT nama_produk, kode_produk, harga
+FROM ms_produk_2
+WHERE harga < 50000;
+```
+
+Output Tabel Jawaban:<br>
+![Tabel](output_jawaban2.png)
