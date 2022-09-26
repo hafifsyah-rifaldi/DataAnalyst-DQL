@@ -48,3 +48,17 @@ dengan menggunakan fungsi describe pada **_nilai_skor_df_**
 menghasilkan<br>
 
 ![gambar](img/gambar_tabeloutput.png)<br>
+
+# Statistik Deskriptif dari Data Frame - Part 2
+
+Jika ingin mendapatkan summary statistik dari kolom yang tidak bernilai angka, maka aku dapat menambahkan command **include=["object"]** pada syntax **describe()**. <br>
+<code>print(nilai_skor_df.describe(include=["object"]))</code> <br>
+hasil<br>
+
+![gambar](img/gambar_tabeloutput2.png)<br><br>
+
+Function **describe()** dengan **include="all"** akan memberikan **_summary_** statistik dari semua kolom. Contoh penggunaannya:<br>
+<code>print(nilai_skor_df.describe(include=["all"]))</code> <br>
+hasil<br>
+
+![gambar](img/gambar_tabeloutput3.png)<br>
