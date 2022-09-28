@@ -109,3 +109,31 @@ Contoh penggunaan:<br>
 ```
 nilai_skor_df.columns.values[0] = "Umur"
 ```
+
+# .groupby menggunakan Pandas
+
+Kegunaan **.groupby** adalah mencari **_summary_** dari data frame dengan menggunakan **aggregate** dari kolom tertentu.
+
+**_Contoh penggunaan:_**
+
+Diberikan dataset bernama **df** seperti pada gambar dibawah!<br>
+![dataset](img/dataset_df.png)<br>
+Penggunaan groupby:
+
+```
+df["Score"].groupby([df.["Name"]]).mean()
+```
+
+Hasil:<br>
+![dataset](img/dataset_output.png)<br>
+**Penjelasan**: komputasi diatas menggunakan kolom **_‘Name’_** sebagai **_aggregate_** dan kemudian menggunakan menghitung **_mean_** dari kolom **_‘Score’_** pada tiap - tiap **_aggregate_** tersebut.<br>
+
+Contoh lainnya:<br>
+
+```
+df["Score"].groupby([df.["Name"], df["Exam]]).sum()
+```
+
+Hasil:<br>
+![dataset](img/dataset_output2.png)<br>
+**_Penjelasan_**: komputasi diatas menggunakan kolom **_‘Name’_** dan **_‘Exam’_** sebagai **_aggregate_** dan kemudian menggunakan menghitung sum dari kolom **_‘Score’_** pada tiap - tiap aggregate tersebut.
