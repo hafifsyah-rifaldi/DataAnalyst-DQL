@@ -36,3 +36,15 @@ Hasil: <br>
 
 > 2.701851217 <br>
 > 152.8
+
+# Menemukan Outliers Menggunakan Pandas
+
+**Outliers** merupakan data observasi yang muncul dengan nilai-nilai ekstrim. Yang dimaksud dengan nilai-nilai ekstrim dalam observasi adalah nilai yang jauh atau beda sama sekali dengan sebagian besar nilai lain dalam kelompoknya.<br>
+![chart](img/chart_outliers.png)<br>
+
+Pada umumnya, outliers dapat ditentukan dengan metric IQR (interquartile range).<br>
+
+Rumus dasar dari IQR: Q3 - Q1. Dan data suatu observasi dapat dikatakan outliers jika memenuhi kedua syarat dibawah ini:<br>
+
+- data < Q1 - 1.5 \* IQR
+- data > Q3 + 1.5 \* IQR
