@@ -47,4 +47,36 @@ Pada umumnya, outliers dapat ditentukan dengan metric IQR (interquartile range).
 Rumus dasar dari IQR: Q3 - Q1. Dan data suatu observasi dapat dikatakan outliers jika memenuhi kedua syarat dibawah ini:<br>
 
 - data < Q1 - 1.5 \* IQR
-- data > Q3 + 1.5 \* IQR
+- data > Q3 + 1.5 \* IQR <br>
+
+Syntax di Python:<br>
+
+```
+Q1 = nama_dataframe.quantile(0.25)
+Q3 = nama_dataframe.quantile(0.75)
+IQR = Q3 - Q1
+print(IQR)
+```
+
+Contoh case: mengidentifikasi IQR dari dataframe **nilai_skor_df**
+
+```
+Q1 = nilai_skor_df[["Score"]].quantile(0.25)
+Q3 = nilai_skor_df[["Score"]].quantile(0.75)
+IQR = Q3 - Q1
+print(IQR)
+```
+
+**Hasil:**<br>
+
+> Score 7.0 <br>
+> dtype: float64 <br>
+
+Karena saat ini memiliki skor IQR, saatnya untuk menentukan Outliers. Kode di bawah ini akan memberikan output dengan beberapa nilai True atau False. Titik data di mana terdapat False yang berarti nilai-nilai ini valid sedangkan True menunjukkan adanya outliers.
+
+```
+print((nilai_skor_df < (Q1 - 1.5*IQR)) | (nilai_skor_df >(Q3 + 1.5*IQR)))
+```
+
+Menghasilkan<br>
+![tabel](img/output_iqr.png)
