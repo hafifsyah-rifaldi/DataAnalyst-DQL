@@ -12,7 +12,9 @@ Aku dapat melakukan
 - menggunakan “ORDER BY total DESC” pada akhir query untuk mengurutkan data.
 
 Aku pun menerima tantangan proyek ini! Senja pun segera mengirim detailnya melalui email yang berisi contoh tabel sebagai berikut untuk segera kukerjakan.<br>
-<img src="Tabel_Soal.png" width="60%" height="60%">
+<p align="center">
+<img src="Tabel_Soal.png" width="70%">
+</p>
 
 ## Solusi Jawaban
 
@@ -23,8 +25,9 @@ kode_pelanggan, nama_produk, qty, harga,
 FROM tr_penjualan WHERE (qty * harga) >= 100000
 ORDER BY total DESC;
 ```
-
-<img src="tabel_jawaban.png" width="60%" height="60%" align="center")
+<p align="center">
+<img src="tabel_jawaban.png" width="50%">
+</p>
 
 ## Kesimpulan
 
