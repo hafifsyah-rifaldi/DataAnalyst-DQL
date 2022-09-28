@@ -155,7 +155,7 @@ nama_dataframe.sort_values(by="nama_kolom")
 nilai_skor_df.sort_values(by="Age")
 ```
 
-menghasilkan
+menghasilkan<br>
 ![dataset](img/output_sort.png)<br>
 **_Function_** tersebut akan secara **_default_** mengurutkan secara **_ascending_** (dimulai dari nilai terkecil), untuk dapat mengurutkan secara **_descending_** (nilai terbesar lebih dahulu), dapat menggunakan properti tambahan:<br>
 
@@ -170,7 +170,7 @@ nama_dataframe.sort_values(by="nama_kolom", ascending=False)
 nilai_skor_df.sort_values(by="Age", ascending=False)
 ```
 
-menghasilkan
+menghasilkan<br>
 ![dataset](img/output_sort2.png)<br>
 
 Fungsi **_sorting_** di Pandas juga dapat dilakukan menggunakan lebih dari satu kolom sebagai syarat. Contohnya pada skenario di bawah, akan mencoba mengaplikasikan fungsi **_sorting_** menggunakan Age dan Score sekaligus:<br>
