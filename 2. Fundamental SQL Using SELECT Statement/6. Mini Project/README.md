@@ -12,7 +12,7 @@ Aku dapat melakukan
 - menggunakan “ORDER BY total DESC” pada akhir query untuk mengurutkan data.
 
 Aku pun menerima tantangan proyek ini! Senja pun segera mengirim detailnya melalui email yang berisi contoh tabel sebagai berikut untuk segera kukerjakan.
-![tabel-soal](Tabel_Soal.png | width=100)
+<img src="Tabel_Soal.png" width="100">
 
 ## Solusi Jawaban
 
