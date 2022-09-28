@@ -80,3 +80,32 @@ print((nilai_skor_df < (Q1 - 1.5*IQR)) | (nilai_skor_df >(Q3 + 1.5*IQR)))
 
 Menghasilkan<br>
 ![tabel](img/output_iqr.png)
+
+# Rename Kolom Data Frame
+
+Pada bagian ini, aku belajar cara mengganti nama kolom dataframe menggunakan Pandas. Mengganti nama kolom pada Pandas dapat dilakukan dengan 2 cara:<br>
+
+**1. Menggunakan nama kolom.** <br>
+Syntax :
+
+```
+nama_dataframe.rename(columns={"column_name_before": "column_name_after"}, inplace=True)
+```
+
+Contoh penggunaan:<br>
+
+```
+nilai_skor_df.rename(columns={"Age": "Umur}, inplace=True)
+```
+
+**2. Menggunakan indeks kolom.** <br>
+
+```
+nama_dataframe.columns.values[no_of_column] = "column_name_after"
+```
+
+Contoh penggunaan:<br>
+
+```
+nilai_skor_df.columns.values[0] = "Umur"
+```
