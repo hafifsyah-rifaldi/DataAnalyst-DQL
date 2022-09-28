@@ -11,7 +11,7 @@ Aku dapat melakukan
 - perkalian antara kolom qty dan harga untuk memperoleh total revenue setiap kode pelanggan yang dinyatakan ke dalam kolom total, dan<br>
 - menggunakan “ORDER BY total DESC” pada akhir query untuk mengurutkan data.
 
-Aku pun menerima tantangan proyek ini! Senja pun segera mengirim detailnya melalui email yang berisi contoh tabel sebagai berikut untuk segera kukerjakan.
+Aku pun menerima tantangan proyek ini! Senja pun segera mengirim detailnya melalui email yang berisi contoh tabel sebagai berikut untuk segera kukerjakan.<br>
 <img src="Tabel_Soal.png" width="60%" height="60%">
 
 ## Solusi Jawaban
@@ -24,7 +24,7 @@ FROM tr_penjualan WHERE (qty * harga) >= 100000
 ORDER BY total DESC;
 ```
 
-![tabel-jawaban](tabel_jawaban.png)
+<img src="tabel_jawaban.png" width="60%" height="60%" align="center")
 
 ## Kesimpulan
 
