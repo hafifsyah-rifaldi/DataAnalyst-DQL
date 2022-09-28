@@ -28,8 +28,8 @@ print([namadataframe].loc[:, "nama_kolom"].var())
 Contoh penggunaan pada dataframe **nilai_skor_df**:
 
 ```
-print([namadataframe].loc[:, "Age"].std())
-print([namadataframe].loc[:, "Score"].var())
+print(nilai_skor_df.loc[:, "Age"].std())
+print(nilai_skor_df.loc[:, "Score"].var())
 ```
 
 Hasil: <br>
