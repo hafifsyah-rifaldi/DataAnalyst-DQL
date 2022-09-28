@@ -34,5 +34,5 @@ print([namadataframe].loc[:, "Score"].var())
 
 Hasil: <br>
 
-> 2.701851217
+> 2.701851217 <br>
 > 152.8
