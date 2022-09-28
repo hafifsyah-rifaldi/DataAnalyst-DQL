@@ -95,7 +95,7 @@ nama_dataframe.rename(columns={"column_name_before": "column_name_after"}, inpla
 Contoh penggunaan:<br>
 
 ```
-nilai_skor_df.rename(columns={"Age": "Umur}, inplace=True)
+nilai_skor_df.rename(columns={"Age": "Umur"}, inplace=True)
 ```
 
 **2. Menggunakan indeks kolom.** <br>
