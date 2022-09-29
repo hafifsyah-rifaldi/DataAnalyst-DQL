@@ -7,7 +7,9 @@
 - Kolom tersebut memiliki urutan posisi yang sama.<br>
 
 Berikut format syntax-nya: <br>
-![syntax](union.png)<br>
+<p align="center">
+<img src="union.png" width="50%">
+</p>
 
 # Tugas Praktek: Menggunakan UNION
 
@@ -23,7 +25,10 @@ WHERE kode_pelanggan = 'dqlabcust03';
 ```
 
 Output Jawaban<br>
-![tabel](tabel_output1.png)<br>
+<p align="center">
+<img src="tabel_output1.png" width="60%">
+</p>
+
 
 # Menyelaraskan (Conforming) Kolom
 
@@ -31,14 +36,20 @@ Output Jawaban<br>
 
 “Tentu saja bisa, kamu bisa menyelaraskan kolom dari kedua tabel di SELECT-statement. Mari kita contohkan dengan data dari tabel berikut ini.”<br>
 Tabel **Customers**<br>
-![tabel](tabel_customer.png)<br>
+<p align="center">
+<img src="tabel_customer.png" width="60%">
+</p>
 Tabel **Supplier**<br>
-![tabel](tabel_supplier.png)<br>
+<p align="center">
+<img src="tabel_supplier.png" width="60%">
+</p>
 
 Jumlah kolom dari kedua tabel tersebut sama - sama 7 kolom, tetapi kolom posisi kolom **ContactName** dari kedua tabel tidak sama. Di tabel **Customer**, posisi kolom **ContactName** berada di Kolom ke - 3 sedangkan di tabel supplier berada di kolom ke-2.<br>
 
 Jika langsung menggabungkan keduanya, tanpa menyelaraskan kolom hasilnya akan sebagai berikut:<br>
-![tabel](tabel_cussup.png)<br>
+<p align="center">
+<img src="tabel_cussup.png" width="60%">
+</p>
 Tentunya, ini hasil UNION yang tidak diinginkan, oleh karena itu, urutkan posisi kolom tersebut di SELECT-Statement dan juga pilih kolom yang ingin digabungkan, sehingga tidak perlu semua kolom dari kedua tabel di-UNION-kan, seperti berikut ini :<br>
 
 ```
@@ -54,11 +65,15 @@ Jika terdapat perbedaan nama kolom antara SELECT-statement pertama dan SELECT-st
 # Perbedaan antara UNION dan JOIN
 
 Memang benar UNION dan JOIN digunakan untuk menggabungkan data dari dua atau lebih tabel. Tapi yang membedakan adalah bagaimana tabel - tabel itu digabungkan. Kita menggunakan JOIN ketika akan menggabungkan tabel secara horizontal, sehingga hasil join akan memuat kolom - kolom dari kedua atau lebih tabel yang digabungkan. Berikut gambaran penggabungan tabel dengan metode JOIN<br>
-![tabel](tabel_1.png)<br>
+<p align="center">
+<img src="tabel_1.png" width="40%">
+</p>
 Pada metode JOIN, penggabungan dilakukan berdasarkan key/kolom tertentu yang terdapat di tabel-tabel yang akan digabungkan dan key/kolom ini memiliki nilai yang saling terkait. Seperti yang terlihat pada gambar, Kolom A dan Kolom E merupakan key/kolom yang saling terkait sehingga kedua tabel dapat digabungkan dengan mencocokan nilai dari kedua kolom ini. Proses JOIN tidak dapat dilakukan jika tidak terdapat key/kolom yang saling terkait di kedua atau lebih tabel yang akan digabungkan.<br>
 
 Untuk UNION seperti yang sudah dijelaskan, digunakan ketika ingin menggabungkan tabel secara secara vertikal yaitu menggabungkan baris/row dari dua atau lebih tabel. Tidak seperti JOIN, untuk penggabungan dengan UNION, tidak diperlukan key/kolom yang saling terkait tetapi UNION mensyaratkan bahwa jumlah kolom dari tabel - tabel yang akan digabungkankan adalah sama dan berada diposisi yang sama pula. Berikut ilustrasi penggabungan dengan UNION:<br>
-![tabel](tabel_2.png)<br>
+<p align="center">
+<img src="tabel_2.png" width="30%">
+</p>
 Pada proses penggabungan UNION, tidak terdapat penambahan kolom tetapi jumlah baris/rows yang akan bertambah.
 
 # Quiz
