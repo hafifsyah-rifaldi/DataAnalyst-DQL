@@ -18,7 +18,9 @@ WHERE nama_produk = 'Kotak Pensil DQLab' OR nama_produk = 'Flashdisk DQLab 32 GB
 ```
 
 Output Tabel Jawaban:<br>
-![Tabel](output_jawaban1.png)
+<p align="center">
+<img src="output_jawaban1.png" width="50%">
+</p>
 
 # Project UNION
 
@@ -29,9 +31,13 @@ Siapkan hanya data produk dengan harga di bawah 100K untuk kode produk prod-1 sa
 Saat mengecek data produk di database, terdapat 2 tabel yang sama - sama berisi data katalog, yaitu:<br>
 
 Tabel **ms_produk_1**<br>
-![Tabel](tabel_msproduk1.png)<br>
+<p align="center">
+<img src="tabel_msproduk1.png" width="50%">
+</p>
 Tabel **ms_produk_2**<br>
-![Tabel](tabel_msproduk2.png)<br>
+<p align="center">
+<img src="tabel_msproduk2.png" width="50%">
+</p>
 
 ## Jawaban
 
@@ -46,4 +52,6 @@ WHERE harga < 50000;
 ```
 
 Output Tabel Jawaban:<br>
-![Tabel](output_jawaban2.png)
+<p align="center">
+<img src="output_jawaban2.png" width="40%">
+</p>
