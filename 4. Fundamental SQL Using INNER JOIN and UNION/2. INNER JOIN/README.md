@@ -1,12 +1,14 @@
 # Syntax INNER JOIN
-
-![syntax](inner_join.png)<br>
-
+<p align="center">
+<img src="inner_join.png" width="50%">
+</p>
 Penggunaan prefix pada tabel_1.nama_kolom dan tabel_2.nama_kolom ditujukan agar terdapat kejelasan (clarity) kolom pada tabel mana yang dijadikan acuan dalam proses INNER JOIN. Tentunya, penggunaan prefix ini ini sangat bermanfaat jika ingin menggabungkan beberapa tabel. Untuk penjelasan lebih detail, coba ingat kembali penggunaan prefix dan alias, yang telah dipelajari pada modul "Fundamental SQL with SELECT statement chapter Prefix dan Alias".<br>
 
 Jika masing-masing tabel tersebut dianalogikan sebagai dua himpunan maka proses INNER JOIN ekivalen dengan INTERSECTION (IRISAN) antara dua himpunan.<br>
+<p align="center">
+<img src="irisan.png">
+</p>
 
-![irisan](irisan.png)<br>
 Proses INNER JOIN memiliki konsep penggabungan untuk records pada kedua tabel yang bernilai sama.
 
 # Tugas Praktek: Menggunakan INNER JOIN (1/3)
@@ -18,7 +20,9 @@ ON ms_item_warna.nama_barang = ms_item_kategori.nama_item;
 ```
 
 Output Jawaban<br>
-![tabel](tabel_output1.png)<br>
+<p align="center">
+<img src="tabel_output1.png">
+</p>
 Hasil yang diperoleh dengan penggunaan **SELECT** … **FROM** … **INNER JOIN** … **ON** …; adalah sama dengan penerapan **SELECT** … **FROM **… **WHERE** …;.
 
 # Quiz 1
@@ -45,13 +49,15 @@ ON tr_penjualan.kode_produk = ms_produk.kode_produk;
 ```
 
 Output Jawaban<br>
-![tabel](tabel_output2.png)<br>
-
+<p align="center">
+<img src="tabel_output2.png">
+</p>
 # Syntax INNER JOIN
 
 ### Syntax INNER JOIN – Memilih Beberapa Kolom Untuk Ditampilkan
-
-![syntax](inner_join2.png)<br>
+<p align="center">
+<img src="inner_join2.png" width="50%">
+</p>
 Bagian Query <br>
 
 **Catatan:**
@@ -74,4 +80,6 @@ ON tr_penjualan.kode_produk = ms_produk.kode_produk;
 ```
 
 Output Jawaban<br>
-![tabel](tabel_output3.png)<br>
+<p align="center">
+<img src="tabel_output3.png" width="50%">
+</p>
