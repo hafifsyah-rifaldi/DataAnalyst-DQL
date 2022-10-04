@@ -2,28 +2,36 @@
 
 Fungsi aggregate ini digunakan untuk melakukan perhitungan pada sekelompok nilai. Biar lebih jelas kita akan mempraktikkan penggunaan fungsi aggregate di SQL dengan menggunakan fungsi - fungsi aggregate yang umum digunakan.<br>
 
-![fungsi](fungsi_aggregate.png)
+<p align="center">
+<img src="fungsi_aggregate.png" width="50%">
+</p>
 
 ## Tugas Praktek 1
 
 Setelah memahami fungsi-fungsi sebelumnya, kali ini Senja memintaku untuk menggunakan fungsi **MIN()** dan **MAX()** untuk menghitung nilai dari kolom **Semester1** dan **Semester2**. Aku menggunakan fungsi tersebut dalam satu SELECT-Statement.<br>
 
 Jika berhasil, berikut output tabel yang diperoleh:<br>
-![tabel-soal](output_tabelsoal.png)
 
+<p align="center">
+<img src="output_tabelsoal.png" width="30%">
+</p>
 ## Solusi Jawaban 1
 
 ```
 SELECT MIN(Semester1) AS Min1, MAX(Semester1) AS Max1 , MIN(Semester2) AS Min2, MAX(Semester2) AS Max2 FROM students;
 ```
 
-![tabel-jawaban](output_tabeljawaban.png)
 
+<p align="center">
+<img src="output_tabeljawaban.png">
+</p>
 ## Fungsi GROUP BY
 
 Untuk mengelompokkan data di SQL kita menggunakan GROUP BY Statement. GROUP BY statement akan mengelompokkan data yang bernilai sama ke dalam satu group, dan dengan menggunakan fungsi aggregate seperti (COUNT, MAX, MIN, SUM, AVG) kita bisa melakukan agregasi untuk untuk setiap group atau kelompok yang terbentuk<br>
 
-![fungsi](fungsi_groupby.png)<br>
+<p align="center">
+<img src="fungsi_groupby.png">
+</p>
 Hal penting yang perlu diperhatikan adalah:<br>
 
 1. GROUP BY digunakan dengan SELECT, artinya kolom yang digunakan di GROUP BY statement, juga perlu ditempatkan di SELECT.
@@ -41,7 +49,10 @@ Group by bisa dilakukan dengan single column ataupun multiple column. Seperti in
 
 Itu mudah saja Itu bisa kamu lakukan dengan CASE - statement di SQL. CASE - statement ini sama dengan IF - THEN - ELSE di pemrograman pada umumnya. Syntax dari CASE – statement seperti ini. Coba lihat.<br>
 
-![fungsi](fungsi_casewhen.png)<br>
+<p align="center">
+<img src="fungsi_casewhen.png">
+</p>
+
 CASE - Statement ditempatkan sesudah SELECT, berikut syntax-nya secara lengkap:<br>
 
 ```
@@ -64,8 +75,10 @@ Dengan menggunakan data **sales_retail_2019**, buatlah syntax query yang menggun
 Tambahkan kolom **remark** menggunakan **CASE… WHEN…** statement. Jika **sum(item_price) >= 30.000.000.000**, maka remark-nya **'Target Achieved'**; Jika **sum(item_price) <= 25.000.000.000** maka remark-nya **'Less performed'**; Selain itu, beri remark **'Follow Up'**.<br>
 
 Jika berhasil, berikut output tabel yang diperoleh:<br>
-![tabel-soal](output_tabelsoal2.png)
 
+<p align="center">
+<img src="output_tabelsoal2.png">
+</p>
 ## Solusi Jawaban 2
 
 ```
@@ -78,5 +91,6 @@ END as remark
 FROM sales_retail_2019
 GROUP BY order_month;
 ```
-
-![tabel-jawaban](output_tabeljawaban2.png)
+<p align="center">
+<img src="output_tabeljawaban2.png">
+</p>

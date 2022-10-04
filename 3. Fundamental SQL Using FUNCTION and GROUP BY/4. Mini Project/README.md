@@ -9,8 +9,10 @@ Aksara, saya senang dengan perkembanganmu belakangan ini. Saya mau minta tolong 
 3. Total quantity dan total revenue untuk setiap kode produk.<br>
 
 **Tabel**: tr_penjualan
-![tabel-soal](tabel_soal1.png)
 
+<p align="center">
+<img src="tabel_soal1.png" width="70%">
+</p>
 ## Solusi Jawaban
 
 #### 1. Total jumlah seluruh penjualan (total/revenue).
@@ -36,7 +38,10 @@ GROUP BY kode_produk;
 ```
 
 Output Tabel Jawaban:<br>
-![tabel-jawaban](tabel_jawaban1.png)
+
+<p align="center">
+<img src="tabel_jawaban1.png">
+</p>
 
 # Proyek Pekerjaan - Analisis Penjualan Part 2
 
@@ -48,7 +53,10 @@ Saya mau minta tolong agar kamu melakukan analisis penjualan di suatu store. Ada
 5. Selain itu, jangan lupa untuk menambahkan kolom baru dengan nama ‘kategori’ yang mengkategorikan total/revenue ke dalam 3 kategori: High: > 300K; Medium: 100K - 300K; Low: <100K.
 
 **Tabel**: tr_penjualan
-![tabel-soal](tabel_soal1.png)
+
+<p align="center">
+<img src="tabel_soal1.png" width="70%">
+</p>
 
 ## Solusi Jawaban
 
@@ -73,4 +81,7 @@ FROM tr_penjualan;
 ```
 
 Output Tabel Jawaban:<br>
-![tabel-jawaban](tabel_jawaban2.png)
+
+<p align="center">
+<img src="tabel_jawaban2.png" width="70%">
+</p>

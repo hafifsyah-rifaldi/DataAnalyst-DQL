@@ -6,8 +6,10 @@ Penggabungan dua tabel menjadi satu tabel baru menggunakan query SELECT pada sub
 - menuliskan pasangan key columns dengan penghubung operator sama dengan (=) di bagian filter atau kondisi.<br>
 
 Berikut adalah gambaran detil syntax penggunaan cara di atas:<br>
-![tabel-query](tabel_query.png)<br>
-Cara join seperti ini disebut dengan cara join menggunakan **operator koma**.
+<p align="center">
+<img src="tabel_query.png" >
+</p>
+Cara join seperti ini disebut dengan cara join menggunakan **operator koma**. <br>
 
 # Kesimpulan
 
@@ -27,7 +29,9 @@ Cobalah ketik query pada code editor untuk melihat keseluruhan isi dari kolom ta
 
 Jika berjalan dengan benar query-nya dan kemudian berjalan dengan lancar maka akan mendapatkan hasil berikut:<br>
 
-![tabel-soal](tabel_soal.png)
+<p align="center">
+<img src="tabel_soal.png" width="30%">
+</p>
 
 ## Solusi Jawaban
 
@@ -43,7 +47,9 @@ SELECT * FROM ms_item_warna;
 
 Hal pertama yang perlu dilakukan sebelum menggabungkan kedua tabel adalah **mengidentifikasi kolom mana dari kedua tabel yang memiliki kecocokan atau memiliki informasi yang sama**. Coba kita perhatikan data dari kedua tabel **ms_item_warna** dan **ms_item_kategori** berikut<br>
 
-![quiz-soal](quiz_soal.png)<br>
+<p align="center">
+<img src="quiz_soal.png">
+</p>
 Dari kedua tabel yang tersebut, manakah kolom – kolom yang sebenarnya memiliki kecocokan/kesamaan data sehingga bisa digunakan untuk menghubungkan/menggabungkan kedua tabel?
 
 #### Solusi Jawaban
@@ -63,7 +69,10 @@ Aku mencatat dengan cepat beberapa poin pemaparannya.
 
 “Selanjutnya, perhatikan kedua tabel ini kembali.” Aku mengarahkan pandang pada layar laptop yang ditunjuk Senja.<br>
 
-![quiz-soal](quiz_soal2.png)<br>
+<p align="center">
+<img src="quiz_soal2.png">
+</p><br>
+
 Nah, sekarang coba dilihat, mana saja isi data di atas yang terdapat pada kedua table?
 
 #### Solusi Jawaban
@@ -91,7 +100,9 @@ Mana dari syntax query berikut yang menggabungkan tabel dengan operator koma?
 #### Mana Penjelasan Hasil Penggabungan Yang Benar?
 
 Mana dari penjelasan berikut ini yang benar untuk query di bawah ini.
-![quiz-soal](quiz_soal4.png)<br>
+<p align="center">
+<img src="quiz_soal4.png">
+</p>
 
 #### Solusi Jawaban
 
@@ -104,8 +115,10 @@ Mana dari penjelasan berikut ini yang benar untuk query di bawah ini.
 
 #### Berapa Jumlah Baris Hasil “Join Tanpa Kondisi” Berikut?
 
-Perhatikan dua table berikut ini
-![quiz-soal](quiz_soal5.png)<br>
+Perhatikan dua table berikut ini<br>
+<p align="center">
+<img src="quiz_soal5.png">
+</p><br>
 Jika kedua table tersebut digabungkan tanpa kondisi dengan query berikut
 
 ```

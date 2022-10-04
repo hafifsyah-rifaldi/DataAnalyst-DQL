@@ -3,8 +3,10 @@
 Histogram merupakan salah satu cara untuk mengidentifikasi sebaran distribusi dari data. Histogram adalah grafik yang berisi ringkasan dari sebaran (dispersi atau variasi) suatu data. Pada histogram, tidak ada jarak antar batang/bar dari grafik. Hal ini dikarenakan bahwa titik data kelas bisa muncul dimana saja di daerah cakupan grafik. Sedangkan ketinggian bar sesuai dengan frekuensi atau frekuensi relatif jumlah data di kelas. Semakin tinggi bar, semakin tinggi frekuensi data. Semakin rendah bar, semakin rendah frekuensi data.
 
 Syntax Umum: <br>
-![syntax](img/syntax_histogram.png)
 
+<p align="center">
+<img src="img/syntax_histogram.png">
+</p>
 Beberapa atribut penting dalam histogram pandas:
 
 - **_bins_** = jumlah_bins dalam histogram yang akan digunakan. Jika tidak didefinisikan jumlah_bins, maka function akan secara default menentukan jumlah_bins sebanyak 10.
@@ -12,7 +14,9 @@ Beberapa atribut penting dalam histogram pandas:
 - **_alpha_** = nilai_alpha untuk menentukan opacity dari plot di histogram. (value berupa range 0.0 - 1.0, dimana semakin kecil akan semakin kecil opacity nya)
 - **_figsize_** = tuple_ukuran_gambar yang digunakan untuk menentukan ukuran dari plot histogram. Contoh: figsize=(10,12)
 
-![chart](img/chart_histogram.png)
+<p align="center">
+<img src="img/chart_histogram.png" width="50%">
+</p>
 
 # Standar Deviasi dan Varians pada Pandas
 
@@ -40,7 +44,10 @@ Hasil: <br>
 # Menemukan Outliers Menggunakan Pandas
 
 **Outliers** merupakan data observasi yang muncul dengan nilai-nilai ekstrim. Yang dimaksud dengan nilai-nilai ekstrim dalam observasi adalah nilai yang jauh atau beda sama sekali dengan sebagian besar nilai lain dalam kelompoknya.<br>
-![chart](img/chart_outliers.png)<br>
+
+<p align="center">
+<img src="img/chart_outliers.png" width="50%">
+</p>
 
 Pada umumnya, outliers dapat ditentukan dengan metric IQR (interquartile range).<br>
 
@@ -79,8 +86,9 @@ print((nilai_skor_df < (Q1 - 1.5*IQR)) | (nilai_skor_df >(Q3 + 1.5*IQR)))
 ```
 
 Menghasilkan<br>
-![tabel](img/output_iqr.png)
-
+<p align="center">
+<img src="img/output_iqr.png">
+</p>
 # Rename Kolom Data Frame
 
 Pada bagian ini, aku belajar cara mengganti nama kolom dataframe menggunakan Pandas. Mengganti nama kolom pada Pandas dapat dilakukan dengan 2 cara:<br>
@@ -117,7 +125,9 @@ Kegunaan **.groupby** adalah mencari **_summary_** dari data frame dengan menggu
 **_Contoh penggunaan:_**
 
 Diberikan dataset bernama **df** seperti pada gambar dibawah!<br>
-![dataset](img/dataset_df.png)<br>
+<p align="center">
+<img src="img/dataset_df.png" width="30%">
+</p><br>
 Penggunaan groupby:
 
 ```
@@ -125,7 +135,9 @@ df["Score"].groupby([df.["Name"]]).mean()
 ```
 
 Hasil:<br>
-![dataset](img/dataset_output.png)<br>
+<p align="center">
+<img src="img/dataset_output.png" width="30%">
+</p>
 **Penjelasan**: komputasi diatas menggunakan kolom **_‘Name’_** sebagai **_aggregate_** dan kemudian menggunakan menghitung **_mean_** dari kolom **_‘Score’_** pada tiap - tiap **_aggregate_** tersebut.<br>
 
 Contoh lainnya:<br>
@@ -135,7 +147,9 @@ df["Score"].groupby([df.["Name"], df["Exam]]).sum()
 ```
 
 Hasil:<br>
-![dataset](img/dataset_output2.png)<br>
+<p align="center">
+<img src="img/dataset_output2.png" width="30%">
+</p>
 **_Penjelasan_**: komputasi diatas menggunakan kolom **_‘Name’_** dan **_‘Exam’_** sebagai **_aggregate_** dan kemudian menggunakan menghitung sum dari kolom **_‘Score’_** pada tiap - tiap aggregate tersebut.
 
 # Sorting Menggunakan Pandas
@@ -156,7 +170,9 @@ nilai_skor_df.sort_values(by="Age")
 ```
 
 menghasilkan<br>
-![dataset](img/output_sort.png)<br>
+<p align="center">
+<img src="img/output_sort.png" width="20%">
+</p><br>
 **_Function_** tersebut akan secara **_default_** mengurutkan secara **_ascending_** (dimulai dari nilai terkecil), untuk dapat mengurutkan secara **_descending_** (nilai terbesar lebih dahulu), dapat menggunakan properti tambahan:<br>
 
 ```
@@ -171,7 +187,9 @@ nilai_skor_df.sort_values(by="Age", ascending=False)
 ```
 
 menghasilkan<br>
-![dataset](img/output_sort2.png)<br>
+<p align="center">
+<img src="img/output_sort2.png" width="20%">
+</p>
 
 Fungsi **_sorting_** di Pandas juga dapat dilakukan menggunakan lebih dari satu kolom sebagai syarat. Contohnya pada skenario di bawah, akan mencoba mengaplikasikan fungsi **_sorting_** menggunakan Age dan Score sekaligus:<br>
 
