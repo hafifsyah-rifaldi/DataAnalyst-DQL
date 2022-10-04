@@ -1,3 +1,17 @@
+# Kesimpulan
+
+Telah mendapatkan pengetahuan (knowledge) dan praktek (skill) yang diantaranya:
+
+1. Mengenal visualisasi data
+2. Urgensi visualisasi data
+3. Visualisasi eksploratif versus naratif
+4. Memetakan tujuan visualisasi data
+5. Proses visualisasi data
+6. Mengenal jenis grafik dan karakternya
+7. Panduan singkat memilih grafik
+8. Karakter visual suatu grafik
+9. Bedah grafik
+
 # Visualisasi Data 1
 
 Terdapat sejumlah data tentang karyawan di perusahaan A. Lalu aku diminta untuk mempresentasikan sebagian data itu kepada pimpinan. Salah satu data yang hendak ditampilkan adalah jumlah karyawan berdasarkan jenis kelamin dalam kelompok usia tertentu. Pimpinan perusahaan ingin melihat postur jumlah karyawan laki-laki dan perempuan berdasarkan rentang usia mereka.
