@@ -46,9 +46,9 @@ Ada berbagai macam cara menampilkan data, entah dalam bentuk grafik, angka, atau
 # Quiz
 
 Di antara grafik-grafik ini, manakah yang paling cocok digunakan untuk menggambarkan jumlah karyawan berdasarkan usia?<br>
-**Pie Chart**: <img src="img/quiz_piechart.png" width="50%"><br>
-**Column Chart**: <img src="img/quiz_columnchart.png" width="50%"><br>
-**Histogram**: <img src="img/quiz_histogram.png" width="50%"><br>
+**Pie Chart** : <img src="img/quiz_piechart.png" width="50%"><br>
+**Column Chart** : <img src="img/quiz_columnchart.png" width="50%"><br>
+**Histogram** : <img src="img/quiz_histogram.png" width="50%"><br>
 
 JAWABAN:
 
