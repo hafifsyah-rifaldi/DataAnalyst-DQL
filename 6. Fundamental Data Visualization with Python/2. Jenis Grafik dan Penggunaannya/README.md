@@ -22,3 +22,13 @@ Aku pun mempelajari gambar yang dibagikan Senja.<br>
     <img src="img/gambar1_senja.png" width="50%"><br>
     <b>Gambar 1</b>
 </p>
+
+# Pilah-pilih grafik
+
+Penting sekali memperkenalkan visualisasi data dengan sesederhana mungkin agar alur membaca dan mengambil kesimpulan atas elemen visual yang ditampilkan dengan lebih mudah.
+
+Ada berbagai macam cara menampilkan data, entah dalam bentuk grafik, angka, atau teks. Cara menampilkannya tergantung pada pesan yang ingin disampaikan kepada audiens. Berikut penjelasan singkat tentang sejumlah pilihan visualisasi data.<br>
+
+| <p align="center">Jenis Grafik</p> | <p align="center">Bentuk</p>                | <p align="center">Keterangan</p> |
+| ---------------------------------- | ------------------------------------------- | -------------------------------- |
+| **Teks dan Angka**                 | <img src="img/teks_angka.png>" width="30%"> |
