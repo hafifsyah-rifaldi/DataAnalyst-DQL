@@ -18,7 +18,7 @@ Bagaimana caraku mengubah grafik ini menjadi lebih ringkas dan mudah terbaca?<br
 
 **Target**<br>
 
-1. Grafik yang lebih simpel dan hemat ruang.
+1. Grafik yang lebih simpel dan hemat ruang.<br>
 2. Komparasi jumlah karyawan laki-laki dan perempuan berdasarkan rentang usia.<br>
 
 Berikut adalah data karyawan di perusahaan A.<br>
@@ -48,9 +48,11 @@ Masalahnya aku masih hanya bisa menggunakan Microsoft Excel dan PowerPoint untuk
     <img src="img/g_2.png"><br>
     <b>Gambar 1</b>: Grafik Jumlah Produksi Per Karyawan.
 </p>
+
 **Tujuan**<br>
-1. Memilih jenis grafik yang benar
-2. Menyederhanakan tampilan grafik
+
+1. Memilih jenis grafik yang benar<br>
+2. Menyederhanakan tampilan grafik<br>
 3. Memilah dan menonjolkan informasi yang diperlukan<br>
 
 Berikut adalah data karyawan di perusahaan:<br>
@@ -70,6 +72,7 @@ Agar desainnya lebih simpel dan mudah dipahami, Senja juga menyarankan agar aku 
     <img src="img/g_1.gif"><br>
     <b>Gambar 1</b>: Proses perbaikan grafik template yang disediakan di MS Excel
 </p><br>
+
 1. Memilih jenis grafik garis (line chart). Jenis grafik ini cocok untuk menampilkan perubahan nilai variabel dari waktu ke waktu dengan elemen yang lebih sederhana dibanding grafik batang horizontal. Menghilangkan garis tepi grafik.
 2. Menghilangkan garis tepi akan memberi kesan ruang grafik yang luas.
 3. Menghilangkan grid line/area. Jika yang ditonjolkan adalah pola garis naik-turun grafik, grid line dapat disamarkan atau dihilangkan sama sekali. Jika tidak, area grafik akan penuh oleh garis saling silang.
