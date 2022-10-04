@@ -75,3 +75,13 @@ JAWABAN:
 - Visual 1
 - **_Visual 2_**
 - Visual 3
+
+#### Penjelasan pemilihan grafik pada Quiz
+
+Jawaban Visual 2 adalah **benar**. Berikut penjelasannya:
+
+Saat presentasi kepada manajer, data yang perlu dipaparkan adalah ringkasan atau kesimpulan dari sekumpulan data. Penyebutan simpulan analisis data sangat perlu untuk menggiring manajer pada analisis tentang strategi/langkah lanjutan.
+
+Visual 1 akan menyulitkan audiens untuk mencari rata-rata ataupun puncak data. Bisa menyajikan gambar ini ketika berdiskusi dengan para analis data. Analis akan mengeksplorasi data tersebut dengan analisis-analisis lanjutan yang lebih dalam.
+
+Adapun Visual 3 lebih cocok disajikan kepada audiens umum, misalnya untuk infografik atau materi presentasi kepada klien. Bisa juga disampaikan untuk level direksi ke atas, dengan catatan penyaji siap dengan data yang lebih detail.
