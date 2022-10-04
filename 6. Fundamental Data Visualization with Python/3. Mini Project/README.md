@@ -30,6 +30,19 @@ Dengan menggunakan data karyawan di atas, aku bisa mengerjakan dengan menggunaka
 
 Akan tetapi kali ini aku akan melakukannya dengan menggunakan Matplotlib (salah satu library plotting di Python). Aku pun tidak khawatir karena aku hanya akan diminta mengetikkan ulang kode yang telah diberikan.
 
+# Solusi Visualisasi Data 1
+
+Grafik kolom kurang cocok untuk menampilkan banyak kategori, dalam hal ini adalah rentang usia karyawan. Ada tujuh kelompok usia dalam tabel data, masing-masing memiliki keterangan sebanyak 11 karakter (huruf). Jika keterangan ini dijejer pada sumbu X, akan melebar dan makan tempat, bukan?
+
+Pilihan yang lebih baik adalah menggunakan dua bar chart yang disusun menjadi piramida. Jenis grafik ini dapat menempatkan batang-batang grafik menjadi lebih berdekatan sehingga menghemat ruang tampilan. Dengan ukuran gambar yang sama seperti grafik sebelumnya, dimungkinkan juga untuk memilih ukuran huruf lebih besar dan lebih terbaca.
+
+Sebagai catatan, ada trik khusus jika ingin membuatnya di Excel. Pada contoh ini, grafik tersebut sebetulnya terdiri dari dua grafik terpisah, masing-masing untuk laki-laki dan perempuan. Khusus untuk grafik laki-laki, hanya perlu mengubah nilai pada sumbu X menjadi terbaca dari kanan ke kiri (reverse order). Selain itu dapat juga mengubahnya pada jendela Format Data Series dalam Excel.
+
+<p align="center">
+    <img src="img/output_1.png"><br>
+    <b>Gambar</b>: Hasil akhir dari perbaikan grafik untuk Praktik Visualisasi Data 1.
+</p>
+
 # Visualisasi Data 2
 
 Pimpinan perusahaan merasa kesal karena setiap kali rapat, analis data mempresentasikan data report yang bertele-tele. Selain itu, ia selalu meragukan kesahihan kesimpulan dalam laporan itu karena analisis tidak dilakukan secara detail.
