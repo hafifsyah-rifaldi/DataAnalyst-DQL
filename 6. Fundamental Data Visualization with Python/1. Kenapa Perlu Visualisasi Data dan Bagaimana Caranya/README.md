@@ -60,3 +60,18 @@ Sebaliknya, visual eksploratif bertujuan memaparkan proses yang dilakukan untuk 
 Baik visual naratif maupun eksploratif ini memiliki tantangan tersendiri dalam pengerjaannya. Untuk grafis naratif, sudah jelas bahwa kekuatan penyajiannya terletak pada cerita dan pesan dari narasi yang disampaikan. **Cerita dan pesan** itu akan mudah dipahami apabila didukung dengan paparan yang tidak bertele-tele dan kemasan visual "menuntun" audiens pada tujuan yang sama. Wujudnya bisa berupa infografik, **_annual report_**, materi promosi, hingga **_company profile_**.
 
 Adapun visual eksploratif haruslah menonjolkan kekuatan analisis, hubungan sebab-akibat perubahan data, dan proses lain. Detail data ditampilkan untuk mendukung kesahihan analisis.
+
+# Quiz
+
+Dalam memaparkan data untuk rapat manajer tingkat menengah di perusahaan, terdapat sejumlah data yang harus ditampilkan kepada para manajer tersebut.
+
+Tampilan grafik manakah yang paling tepat disajikan berikut ini?<br>
+Visual 1: <img src="img/quiz_visual1.png" width="50%"><br>
+Visual 2: <img src="img/quiz_visual2.png" width="50%"><br>
+Visual 3: <img src="img/quiz_visual3.png" width="50%"><br>
+
+JAWABAN:
+
+- Visual 1
+- **_Visual 2_**
+- Visual 3
