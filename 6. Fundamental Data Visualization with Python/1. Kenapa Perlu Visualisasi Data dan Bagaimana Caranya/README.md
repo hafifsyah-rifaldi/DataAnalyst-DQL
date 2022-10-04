@@ -31,3 +31,32 @@ Pembahasan tentang visualisasi data ini dimaksudkan dengan tujuan sebagai beriku
 3. **Panduan dan alur, bukan asal menata gambar**. Urutan dan penempatan elemen visual harus dapat memandu audiens untuk memahami masalah hingga menuju jalan keluarnya. Memilih jenis dan ukuran huruf, warna yang tepat, mengatur tata letak visualnya, serta mengatur pola elemen visual menjadi penting agar audiens memahami maksud dan pesan yang dimunculkan dari data.<br>
 4. **Konsep dan kerangka berpikir, bukan cuma kreativitas visual**. Visualisasi data adalah mentransfer konsep dan cara berpikir atas data dan proses analisisnya dengan cara yang mudah dipahami oleh oleh manusia. Tujuannya adalah meyakinkan audiens dengan konsep dan kerangka pikir yang dibangun. Data dan analisisnya menjadi bukti penguat dan tak terbantahkan atas konsep tersebut.<br>
 5. **Kontekstual**. Data yang disajikan harus saling mendukung satu sama lain. Rangkaian visual yang dibuat harus memiliki konteks yang sama dan terorganisasi dengan baik sehingga menambah kejelasan makna dari pesan yang ingin disampaikan.<br>
+
+# Eksploratif versus naratif
+
+Sebelum menentukan visual yang cocok atas suatu data, seorang analis data harus memahami siapa atau audiens yang akan membaca data tersebut. Dengan mengetahui karakter audiens, seorang data analis akan bisa memperkirakan kepadatan data dan informasi yang akan disajikan.<br>
+
+Hal itu akan mempengaruhi pilihan visualisasi data, yakni visual yang mengeksplorasi data sedetail mungkin atau grafis yang menarasikan informasi dengan ringkas dan jelas. Apa bedanya?<br>
+
+**Visual naratif** seringkali digunakan untuk presentasi, biasanya statis, dan berisi ringkasan informasi. Tujuan utamanya adalah menjelaskan hasil akhir atau kesimpulan dari analis.
+
+Hasil tersebut bisa jadi disebarluaskan untuk banyak orang dengan berbagai tingkat pemahaman terhadap data. Audiens tidak perlu lama-lama membacanya dan semestinya bisa segera memahaminya. Oleh karena itu, penyajiannya cenderung menonjolkan keindahan visual. Maka tidak heran bila informasi tidak disampaikan secara detail, misalnya grafik tanpa legenda, label data, ataupun detail lain.
+
+Contoh visual naratif dapat dilihat **pada Gambar 1**.
+
+<p align="center">
+    <img src="img/visual_naratif.png" width="50%"><br>
+    <b>Gambar 1</b>: Heatmap menggambarkan transaksi kumulatif harian selama satu tahun. Grafik ini tidak menampilkan data secara detail karena tujuan utamanya adalah memperlihatkan pada jam berapa transaksi tertinggi dan terendah terjadi.
+</p>
+Sebaliknya, visual eksploratif bertujuan memaparkan proses yang dilakukan untuk mendapatkan hasil akhir yang tepat. Penyajiannya dibuat serinci dan seakurat mungkin untuk meyakinkan bahwa prosesnya benar.<br><br>
+
+**Visual eksploratif** cenderung menampilkan banyak data. Audiensnya pun tidak sembarang orang karena butuh waktu lebih lama untuk mencerna kompleksitas data tersebut. Visual ini lebih ditujukan untuk orang-orang yang memang memahami data atau bisa menginvestigasi data tersebut. Contoh visual eksploratif dapat dilihat pada **Gambar 2**.<br>
+
+<p align="center">
+    <img src="img/visual_eksploratif.png" width="50%"><br>
+    <b>Gambar 2</b>:  Grafik transaksi harian selama satu tahun. Grafik menggunakan elemen secara detail untuk memperlihatkan performa per jam setiap hari.
+</p>
+
+Baik visual naratif maupun eksploratif ini memiliki tantangan tersendiri dalam pengerjaannya. Untuk grafis naratif, sudah jelas bahwa kekuatan penyajiannya terletak pada cerita dan pesan dari narasi yang disampaikan. **Cerita dan pesan** itu akan mudah dipahami apabila didukung dengan paparan yang tidak bertele-tele dan kemasan visual "menuntun" audiens pada tujuan yang sama. Wujudnya bisa berupa infografik, **_annual report_**, materi promosi, hingga **_company profile_**.
+
+Adapun visual eksploratif haruslah menonjolkan kekuatan analisis, hubungan sebab-akibat perubahan data, dan proses lain. Detail data ditampilkan untuk mendukung kesahihan analisis.
