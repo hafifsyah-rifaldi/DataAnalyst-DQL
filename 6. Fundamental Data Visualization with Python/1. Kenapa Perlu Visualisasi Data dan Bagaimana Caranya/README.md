@@ -17,3 +17,17 @@ Garis coklat dan hitam memperlihatkan kekuatan pasukan dari Prancis menuju dan k
 Gambar yang dibuat tahun 1869 tersebut juga memperlihatkan peta, rute dan arah perjalanan, jarak tempuh, hingga grafik temperatur pada medan yang dilalui.<br>
 
 Siapapun yang melihatnya, dan paham bahasanya, akan dengan mudah mengetahui data dan cerita yang disampaikan dalam gambar tersebut. Invasi itu berakhir dengan hilangnya sebagian besar kekuatan Napoleon. Awalnya lebih dari 400.000-an prajurit, yang kembali hanya 10.000-an. Sisanya menjadi korban akibat penyakit, suhu dingin, kelaparan, atau serangan lawan. Tragis!
+
+# Urgensi Visualisasi Data
+
+Dari contoh sebelumnya, jelaslah bahwa penyajian data dengan visualisasi yang tepat bisa dengan cepat mendapat perhatian audiens dan membuatnya paham tentang apa yang disampaikan.
+
+Itulah tujuan utama visualisasi data. Bukan sekadar membuat tampilan data yang enak dilihat, tetapi juga harus bisa membuat data lebih mudah dipahami, jelas, dan menarik. Yang tidak kalah penting, harus dapat meyakinkan audiens sesuai kesimpulan dan narasi yang dibangun analis.
+
+Pembahasan tentang visualisasi data ini dimaksudkan dengan tujuan sebagai berikut:
+
+1. **Memecahkan masalah, bukan sekadar tampil cantik**. Ingatlah bahwa informasi visual lebih bukan mengutamakan hasil akhir berupa infografik atau presentasi serba indah. Sasarannya adalah memproses dan mengorganisasi fakta dan data, menemukan pola, hingga menghasilkan solusi. Desain visual membantu mengomunikasikan penyelesaian masalah itu agar mudah dipahami.<br>
+2. **Fokus pada target dan audiens, bukan tools ataupun tekniknya**. Modul ini tidak mewajibkan penggunaan aplikasi tertentu ataupun teknik khusus untuk memvisualkan data. Maka itu diperbolehkan menggunakan cara dan tools apa pun untuk itu. Yang diutamakan adalah apa tujuan menampilkan data tersebut dan siapakah audiensnya.<br>
+3. **Panduan dan alur, bukan asal menata gambar**. Urutan dan penempatan elemen visual harus dapat memandu audiens untuk memahami masalah hingga menuju jalan keluarnya. Memilih jenis dan ukuran huruf, warna yang tepat, mengatur tata letak visualnya, serta mengatur pola elemen visual menjadi penting agar audiens memahami maksud dan pesan yang dimunculkan dari data.<br>
+4. **Konsep dan kerangka berpikir, bukan cuma kreativitas visual**. Visualisasi data adalah mentransfer konsep dan cara berpikir atas data dan proses analisisnya dengan cara yang mudah dipahami oleh oleh manusia. Tujuannya adalah meyakinkan audiens dengan konsep dan kerangka pikir yang dibangun. Data dan analisisnya menjadi bukti penguat dan tak terbantahkan atas konsep tersebut.<br>
+5. **Kontekstual**. Data yang disajikan harus saling mendukung satu sama lain. Rangkaian visual yang dibuat harus memiliki konteks yang sama dan terorganisasi dengan baik sehingga menambah kejelasan makna dari pesan yang ingin disampaikan.<br>
