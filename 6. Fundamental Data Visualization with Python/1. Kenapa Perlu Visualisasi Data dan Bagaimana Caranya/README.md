@@ -85,3 +85,52 @@ Saat presentasi kepada manajer, data yang perlu dipaparkan adalah ringkasan atau
 Visual 1 akan menyulitkan audiens untuk mencari rata-rata ataupun puncak data. Bisa menyajikan gambar ini ketika berdiskusi dengan para analis data. Analis akan mengeksplorasi data tersebut dengan analisis-analisis lanjutan yang lebih dalam.
 
 Adapun Visual 3 lebih cocok disajikan kepada audiens umum, misalnya untuk infografik atau materi presentasi kepada klien. Bisa juga disampaikan untuk level direksi ke atas, dengan catatan penyaji siap dengan data yang lebih detail.
+
+# Memetakan Tujuan
+
+Aku baru selesai membaca pengantar awal isi modul mengenai visualisasi data. Lalu kutemukan hasil survei yang menarik untuk kujadikan bahan praktik awal. Aku pun mencoba menyampaikan keinginanku pada Senja.**(lihat Gambar 1)**.
+
+<p align="center">
+    <img src="img/grafik_batangganda.png" width="50%"><br>
+    <b>Gambar 1</b>: Grafik batang ganda menunjukkan nilai hasil survei terhadap orangtua dan siswa.
+</p>
+
+“Nja, ini aku mau coba praktik pakai data antusiasme orangtua dan murid terhadap kegiatan sekolah,” ujarku setelah membaca modul visualisasi data dari Senja.
+
+“Boleh. Itu praktiknya ada di berkas studi kasus ya, bisa kamu cek.”
+
+“Iya, ini ditulis kalau sekolah A berharap bahwa murid-murid menunjukkan antusiasme lebih besar dibanding orangtua untuk semua kegiatan yang diadakan di sekolah. Dari grafik ini, awalnya pihak sekolah tidak menyadari bahwa ternyata respons murid terhadap kegiatan religi tidak setinggi harapan orangtua. Itu karena grafik yang dimiliki sekolah tidak memperlihatkan perbedaan yang jelas satu sama lain.”
+
+“Oke, sudah ada kasusnya. Sudah paham harus diolah seperti apa visualisasinya, Aksara?”
+
+Aku terdiam untuk berpikir sebentar.
+
+“Aku akan mengubah desain grafiknya. Aku akan membuat slope graph **(lihat Gambar 2)** untuk memperlihatkan pertanyaan/kategori apa yang memperlihatkan respons murid lebih rendah ketimbang orangtua untuk menunjukkan secara jelas perbedaannya,” jawabku.
+
+“Kenapa memilih grafik itu, Aksara? Bisa jelaskan alasannya?”
+
+“Aku menggunakan slope graph agar keterangan kegiatan dapat diletakkan di samping (kiri) dari angka-angka tersebut. Jika aku paksa menggunakan column chart, aku bisa menyusun urutan angkanya secara vertikal. Tetapi, di sekolah juga akan mengalami kesulitan yang sama seperti grafik sebelumnya. Grafik batang maupun kolom seharusnya menempatkan angka nol pada garis dasar, baik vertikal maupun horizontal. Ini bisa menjadi masalah karena perbedaan persentase respons pada antarkegiatan tidak terlalu besar, hanya sekian persen. Sekolah pun akan sulit melihat bedanya secara sekilas. Dengan slope graph, aku dapat menghilangkan garis zero based dan fokus pada kisaran angka persentase dalam data,” jelasku panjang lebar.
+
+Senja tersenyum dan mempersilahkanku untuk mulai mengerjakan studi kasusku dengan hasil seperti ini:
+
+<p align="center">
+    <img src="img/slope_graph.png" width="50%"><br>
+    <b>Gambar 2</b>: Slope graph merupakan salah satu cara membandingkan dua kategori/kelompok dengan berbagai variabel.
+</p>
+
+“Gimana menurutmu hasilnya, Nja?” ujarku sambil menunjukkan hasil visualisasiku.
+
+“Hmmm, menurut saya, kamu bisa menampilkan angka persentase dari murid dan orangtua dari item kegiatan religi saja. Yang lain bisa kamu jelaskan tanpa harus menampilkan grafiknya. Contohnya seperti ini agar menjadi lebih simpel **(lihat Gambar 3)**."
+
+Aku membiarkan Senja mengambil alih hasil kerjaku sebentar. Setelah diubah sedikit oleh Senja, aku mendapati gambar jadi lebih simpel dan langsung memperlihatkan pesan yang ingin disampaikan.
+
+<p align="center">
+    <img src="img/graf_3.png" width="50%"><br>
+    <b>Gambar 3</b>: Dengan mengandalkan kekuatan teks dan warna, pesan dalam grafik dapat terlihat dengan jelas meskipun desainnya sederhana.
+</p>
+
+“Sekarang kamu punya dua opsi grafik, Aksara, terutama dalam hal menampilkan seberapa detail data yang ingin ditonjolkan. Grafik yang terakhir menonjolkan peringatan tentang kegiatan yang perlu dibenahi, sementara grafik sebelumnya menitikberatkan pada seberapa antusias orangtua dan siswa terhadap seluruh kegiatan di sekolah. Jadi lebih beragam untuk disajikan semisal kita punya klien,” terang Senja.
+
+Dari penjelasan Senja, hal yang perlu kucatat adalah beri opsi tampilan grafik, jangan hanya satu.
+
+“Makasih sarannya, Nja!”
