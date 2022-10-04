@@ -29,8 +29,8 @@ Penting sekali memperkenalkan visualisasi data dengan sesederhana mungkin agar a
 
 Ada berbagai macam cara menampilkan data, entah dalam bentuk grafik, angka, atau teks. Cara menampilkannya tergantung pada pesan yang ingin disampaikan kepada audiens. Berikut penjelasan singkat tentang sejumlah pilihan visualisasi data.<br>
 
-| <p align="center">Jenis Grafik</p> | <p align="center">Bentuk</p>                                      | <p align="center">Keterangan</p>                                                                                                               |
-| ---------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Teks dan Angka**                 | <p align="center"> <img src="img/teks_angka.png" width="50%"></p> | Data tidak harus ditampilkan dalam bentuk grafik. Dapat menggunakan teks dan angka saja, dengan catatan hanya 1-2 data yang ingin ditampilkan. |
+| <p align="center">Jenis Grafik</p> | <p align="center">Bentuk</p>                          | <p align="center">Keterangan</p>                                                                                                               |
+| ---------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Teks dan Angka**                 | <p align="center"> <img src="img/teks_angka.png"></p> | Data tidak harus ditampilkan dalam bentuk grafik. Dapat menggunakan teks dan angka saja, dengan catatan hanya 1-2 data yang ingin ditampilkan. |
 
 Beri penebalan atau warna berbeda pada angka atau teks yang ingin ditonjolkan agar perhatian pembaca terarah pada bagian tersebut.
