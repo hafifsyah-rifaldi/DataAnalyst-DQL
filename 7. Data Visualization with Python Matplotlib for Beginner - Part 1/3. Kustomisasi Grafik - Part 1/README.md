@@ -17,7 +17,7 @@ Ada beberapa istilah dan komponen di sebuah **_plot_**, nanti akan mempermudah m
 
 Memahami komponen-komponen di atas sudah cukup untuk melakukan berbagai visualisasi dengan matplotlib. Untuk anatomi yang lebih lengkap, bisa dilihat di link berikut: https://matplotlib.org/3.1.3/gallery/showcase/anatomy.html.
 
-## Quiz 2
+## Quiz 1
 
 Untuk mengubah ukuran **_figure_** diperlukan **_keyword argument_**?
 
@@ -31,3 +31,14 @@ JAWABAN
 - **_figsize_**
 - fig_size
 - enlarge
+
+## Quiz 2
+
+Mana yang bukan parameter untuk **_title_** di matplotlib?
+
+JAWABAN
+
+- fontsize
+- color
+- **_position_**
+- pad
