@@ -1,7 +1,7 @@
 # Anatomi dari Figure
 
 <p align="center">
-<img src="figure.png">
+<img src="img/figure.png">
 </p>
 
 Ada beberapa istilah dan komponen di sebuah **_plot_**, nanti akan mempermudah mengingat **_function_** apa yang digunakan untuk memodifikasinya.
