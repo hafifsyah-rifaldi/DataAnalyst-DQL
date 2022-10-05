@@ -1,4 +1,4 @@
-p# Pendahuluan
+# Pendahuluan
 
 Aku diminta oleh Senja untuk membuat sebuah **_line chart_** dengan menggunakan matplotlib yang menunjukkan jumlah pembeli harian (**_daily number of customers_**) selama bulan Desember.
 
