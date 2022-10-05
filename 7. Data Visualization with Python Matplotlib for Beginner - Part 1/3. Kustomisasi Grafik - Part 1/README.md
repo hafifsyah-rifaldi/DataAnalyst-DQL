@@ -16,3 +16,18 @@ Ada beberapa istilah dan komponen di sebuah **_plot_**, nanti akan mempermudah m
 - Aksesoris lain yang bisa ditambahkan, di antaranya **Grid** untuk mempermudah melihat **_tick_** yang sejajar, dan **Text** untuk memberikan informasi tambahan berbentuk teks di grafik.
 
 Memahami komponen-komponen di atas sudah cukup untuk melakukan berbagai visualisasi dengan matplotlib. Untuk anatomi yang lebih lengkap, bisa dilihat di link berikut: https://matplotlib.org/3.1.3/gallery/showcase/anatomy.html.
+
+## Quiz 2
+
+Untuk mengubah ukuran **_figure_** diperlukan **_keyword argument_**?
+
+```
+plt.figure(____________=(15, 5))
+```
+
+JAWABAN
+
+- size
+- **_figsize_**
+- fig_size
+- enlarge
