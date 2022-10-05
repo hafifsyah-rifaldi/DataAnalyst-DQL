@@ -12,3 +12,18 @@ JAWABAN
 - Label dari sumbu-y
 - Banyaknya ticks label di sumbu-y
 - Koordinat dari ticks labels di sumbu-y
+
+## Quiz 2
+
+Apakah kegunaan dari **_function_**
+
+```
+plt.text(...) ?
+```
+
+JAWABAN
+
+- **_Menambahkan text tambahan di plot grafik_**
+- Mengubah judul plot
+- Menghilangkan semua text di plot
+- Fungsi itu tidak ada
