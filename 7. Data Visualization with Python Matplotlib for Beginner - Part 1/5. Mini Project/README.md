@@ -22,5 +22,5 @@ Beberapa spesifikasi yang harus diperhatikan:<br>
 Jika berhasil kodenya dibuat dan dijalankan dengan diperoleh grafik seperti berikut ini:<br>
 
 <p align="center">
-<img src="img/soal_output.png>
+<img src="img/soal_output.png">
 </p>
