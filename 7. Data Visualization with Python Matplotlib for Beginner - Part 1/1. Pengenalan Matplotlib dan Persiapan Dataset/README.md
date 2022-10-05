@@ -31,7 +31,7 @@ maka akan muncul kolom baru bernama ‘new_column’ yang isinya adalah ...
 
 JAWABAN
 
-- Sama dengan nilai item*price
-  -\*\*\_Dua kali nilai item_price*\*\*
-- ‘x\*2’
+- Sama dengan nilai item_price
+- **_Dua kali nilai item_price_**
+- ‘x2’
 - 0
