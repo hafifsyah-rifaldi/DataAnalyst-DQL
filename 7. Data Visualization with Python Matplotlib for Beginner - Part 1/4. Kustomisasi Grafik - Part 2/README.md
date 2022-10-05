@@ -27,3 +27,14 @@ JAWABAN
 - Mengubah judul plot
 - Menghilangkan semua text di plot
 - Fungsi itu tidak ada
+
+## Quiz 3
+
+Untuk menyimpan grafik, maka digunakan **_function_** ...
+
+JAWABAN
+
+- saveplot
+- savechart
+- **_savefig_**
+- savegraphic
