@@ -42,3 +42,14 @@ JAWABAN
 - color
 - **_position_**
 - pad
+
+## Quiz 3
+
+Berikut adalah **_linestyle_** yang valid, kecuali ...
+
+JAWABAN
+
+- ‘dashed’
+- ‘-.’
+- ‘:’
+- **_‘.’_**
