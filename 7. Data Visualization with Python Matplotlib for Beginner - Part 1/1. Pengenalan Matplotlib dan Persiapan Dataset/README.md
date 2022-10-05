@@ -33,5 +33,5 @@ JAWABAN
 
 - Sama dengan nilai item_price
 - **_Dua kali nilai item_price_**
-- ‘x2’
+- ‘x\*2’
 - 0
