@@ -24,3 +24,14 @@ Jika berhasil kodenya dibuat dan dijalankan dengan diperoleh grafik seperti beri
 <p align="center">
 <img src="img/soal_output.png">
 </p>
+
+# Penutup/Kesimpulan
+
+Akhirnya, aku telah selesai mempelajari dasar-dasar pembuatan _chart_ menggunakan matplotlib. Catatan untukku sendiri adalah untuk membuat visualisasi, harus mempersiapkan dulu data yang dibutuhkan. Lalu membuat plot-nya. Selanjutnya, bisa kustomisasi berbagai komponen pada chart, seperti _figure size, title/judul, axis labels, axis ticks, style dari line/points di chart, grid, teks_, dan lain sebagainya. Setelah selesai, tentunya bisa menyimpan gambarnya.
+
+**_Congratulations!_** Aku berhasil menyelesaikan modul **Data Visualization with Python Matplotlib for Beginner - Part 1**. Berdasarkan materi-materi yang telah aku pelajari dan praktikkan dalam modul ini, aku sudah mendapatkan pengetahuan (_knowledge_) dan praktik (_skill_) yang diantaranya:
+
+- mempersiapkan dulu data yang dibutuhkan,
+- membuat plot dari data yang telah dipersiapkan,
+- mengkustomisasi berbagai komponen di chart yang telah dibuat, seperti figure size, - - title/judul, axis labels, axis ticks, style dari line/points di chart, grid, teks, dan lain sebagainya,
+- menyimpan gambar yang telah dibuat.
