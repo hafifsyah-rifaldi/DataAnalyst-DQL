@@ -35,3 +35,14 @@ JAWABAN
 - Komparasi
 - Relasi
 - **_Distribusi_**
+
+## Quiz 2
+
+Jika ada tiga atau lebih variabel yang akan digunakan untuk menyajikan suatu data ke dalam grafik agar dapat digambarkan relasinya, jenis grafik manakah yang akan digunakan?
+
+JAWABAN
+
+- Scatter plot
+- Stacked bar chart
+- Waterfall chart
+  **_- Scatter plot with bubble size_**
