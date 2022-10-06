@@ -3,7 +3,7 @@
 Ada banyak sekali jenis visualisasi data, dari yang sederhana hingga yang kompleks. Setiap jenis visualisasi biasanya lebih tepat digunakan untuk suatu tujuan tertentu. Secara garis besar, ada empat tujuan visualisasi yang disampaikan oleh Andrew Abela sesuai gambar berikut.
 
 <p align="center">
-<img src="visualization_data.png">
+<img src="img/visualization_data.png">
 </p>
 
 Berikut penjelasannya:<br>
