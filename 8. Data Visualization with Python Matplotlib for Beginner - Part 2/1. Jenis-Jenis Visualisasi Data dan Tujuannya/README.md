@@ -57,3 +57,14 @@ JAWABAN
 - Stacked area chart
 - **_Line chart_**
 - Tree chart
+
+## Quiz 4
+
+Untuk kasus perubahan volume penjualan tiap minggunya dalam satu tahun, dan ingin dilihat komposisi untuk masing-masing segment, grafik manakah yang cocok digunakan untuk memvisualisasikan data demikian?
+
+JAWABAN
+
+- Pie chart
+- **_Stacked area chart_**
+- Line chart
+- Tree chart
