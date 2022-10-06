@@ -23,3 +23,15 @@ Digunakan untuk melihat komposisi dari suatu variabel, jika di-breakdown terhada
 **4. Keterhubungan/Relasi**
 
 Ketika ingin melihat keterhubungan antara suatu variabel dengan variabel lain. Misalnya ingin cek, jika variabel A semakin tinggi, apakah variabel B juga semakin tinggi, atau justru lebih rendah, atau tidak ada keterhubungannya. Visualisasi yang biasa digunakan untuk tujuan ini adalah scatter-plot.
+
+## Quiz 1
+
+Quiz
+_Histogram_ biasanya digunakan untuk tujuan ...
+
+JAWABAN
+
+- Komposisi
+- Komparasi
+- Relasi
+- **_Distribusi_**
