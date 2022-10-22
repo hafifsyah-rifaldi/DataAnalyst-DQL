@@ -2,6 +2,6 @@
 
 <br>
 
-![certificate](data_visualization_covid19.png)
+![certificate](analisis_data_visualization_covid19.png)
 
 - This repository written for reference and self-documentation purpose
